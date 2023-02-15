@@ -1,5 +1,4 @@
-setwd("C:/Users/laure/Desktop/HonorsThesis")
-read.csv("C:/Users/laure/Desktop/HonorsThesis/buffer_landscape.csv")
+
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
