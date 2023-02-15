@@ -4,8 +4,8 @@ library(tidyverse)
 library(dplyr)
 library(ggplot2)
 
-Land_Cover = read.csv("C:/Users/laure/Desktop/HonorsThesis/buffer_landscape.csv")
-crops_codes = read.csv("C:/Users/laure/Desktop/HonorsThesis/crop_codes.csv")
+Land_Cover = read.csv("buffer_landscape.csv")
+crops_codes = read.csv("crop_codes.csv")
 Land_Cover2 = Land_Cover %>%
   select(-c("fid","Beekeeper.ID","Operation.Scale", "Apiary.1.Address", "Apiary.1.City", "Apiary.1.State", 
             "Apiary.1.ZIP", "Apiary.1.County", "Apiary.Address", "Before.Tech.Sampling", 
