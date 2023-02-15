@@ -23,8 +23,9 @@ Land_Cover_Cleaned_longer = pivot_longer(Land_Cover_Cleaned, cols = CDL_1:CDL_24
   mutate(Value = Value*100) %>%
   left_join(crops_codes, by="Crop_Code")
 
-aggregate_values = Land_Cover_Cleaned_longer %>% 
-  #filter(Prelim_Agg_Land_Class==c('Agriculture','Developed','Natural')) %>%
+aggregate_values = 
+  filter(Land_Cover_Cleaned_longer,Prelim_Agg_Land_Class %in% 
+           c('Agriculture','Developed','Natural')) %>%
   group_by(Apiary.1.Name, Prelim_Agg_Land_Class) %>%
   summarize(percent_land_cover = sum(Value)) 
 
