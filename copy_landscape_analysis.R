@@ -30,8 +30,10 @@ aggregate_values =
   summarize(percent_land_cover = sum(Value)) 
 
 ggplot(data = aggregate_values)+
-  geom_histogram(mapping = aes(x = percent_land_cover))+
+  geom_histogram(mapping = aes(x = percent_land_cover, 
+                               fill=Prelim_Agg_Land_Class))+
   facet_wrap(~Prelim_Agg_Land_Class)+
+  theme(legend.position="none")+
   ylab("Number of Sites")+
   xlab("Percent Land Cover")+
   ggtitle("Distribution of Percent Land Cover by Preliminary Aggregate Land Class")
