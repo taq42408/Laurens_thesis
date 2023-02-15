@@ -1,5 +1,4 @@
-setwd("C:/Users/laure/Desktop/HonorsThesis")
-read.csv("C:/Users/laure/Desktop/HonorsThesis/buffer_landscape.csv")
+
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
@@ -33,7 +32,8 @@ ggplot(data = aggregate_values)+
   geom_histogram(mapping = aes(x = percent_land_cover))+
   facet_wrap(~Prelim_Agg_Land_Class)
 
-write_csv(Land_Cover_Cleaned_longer,file="Land_Cover_Cleaned_longer_csv")
+write_csv(Land_Cover_Cleaned_longer,file="Land_Cover_Cleaned_longer_csv",
+          fileEncoding = "UTF-16LE")
 print("Land_Cover_Cleaned_longer_csv")
 
 # Made a ggplot

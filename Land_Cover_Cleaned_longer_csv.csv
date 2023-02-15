@@ -1,0 +1,1108 @@
+﻿Apiary.1.Name,Lat,Long,total_area,Crop_Code,Value,Code,Cover_Type,Prelim_Agg_Land_Class
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_1,0.857387825,1,Corn,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_4,0,4,Sorghum,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_5,0.142897971,5,Soybeans,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_12,0,12,Sweet Corn,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_21,0,21,Barley,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_23,0,23,Spring Wheat,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_24,0,24,Winter Wheat,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_27,0,27,Rye,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_28,0.142897971,28,Oats,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_30,0,30,Speltz,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_36,2.086310374,36,Alfalfa,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_37,9.574164047,37,Other Hay/Non Alfalfa,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_39,0,39,Buckwheat,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_42,0,42,Dry Beans,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_43,0,43,Potatoes,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_53,0,53,Peas,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_58,0,58,Clover/Wildflowers,Natural
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_59,0,59,Sod/Grass Seed,Unknown
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_61,0.057159188,61,Fallow/Idle Cropland,Natural
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_66,0,66,Cherries,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_67,0,67,Peaches,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_68,0,68,Apples,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_69,0,69,Grapes,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_70,0,70,Christmas Trees,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_77,0,77,Pears,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_111,0,111,Open Water,Water
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_121,4.772792226,121,Developed/Open Space,Developed
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_122,0.314375536,122,Developed/Low Intensity,Developed
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_123,0,123,Developed/Med Intensity,Developed
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_124,0,124,Developed/High Intensity,Developed
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_131,0.028579594,131,Barren,Unknown
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_141,49.92855101,141,Deciduous Forest,Natural
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_142,3.4295513,142,Evergreen Forest,Natural
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_143,6.630465847,143,Mixed Forest,Natural
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_152,0.171477565,152,Shrubland,Natural
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_176,21.14889969,176,Grass/Pasture,Natural
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_190,0.485853101,190,Woody Wetlands,Natural
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_195,0.228636753,195,Herbaceous Wetlands,Natural
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_205,0,205,Triticale,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_220,0,220,Plums,Agriculture
+QG Johnson Rd,43.082488,-75.035398,3499,CDL_242,0,242,Blueberries,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_1,1.658090337,1,Corn,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_4,0,4,Sorghum,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_5,0.085763293,5,Soybeans,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_12,0,12,Sweet Corn,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_21,0,21,Barley,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_23,0,23,Spring Wheat,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_24,0.114351058,24,Winter Wheat,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_27,0,27,Rye,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_28,0,28,Oats,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_30,0,30,Speltz,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_36,9.834190966,36,Alfalfa,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_37,25.72898799,37,Other Hay/Non Alfalfa,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_39,0,39,Buckwheat,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_42,0,42,Dry Beans,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_43,0,43,Potatoes,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_53,0,53,Peas,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_58,0,58,Clover/Wildflowers,Natural
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_59,0,59,Sod/Grass Seed,Unknown
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_61,0,61,Fallow/Idle Cropland,Natural
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_66,0,66,Cherries,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_67,0,67,Peaches,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_68,0,68,Apples,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_69,0,69,Grapes,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_70,0,70,Christmas Trees,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_77,0,77,Pears,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_111,0,111,Open Water,Water
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_121,2.658662093,121,Developed/Open Space,Developed
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_122,4.288164666,122,Developed/Low Intensity,Developed
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_123,0.657518582,123,Developed/Med Intensity,Developed
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_124,0,124,Developed/High Intensity,Developed
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_131,0.028587764,131,Barren,Unknown
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_141,33.01886792,141,Deciduous Forest,Natural
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_142,1.457975986,142,Evergreen Forest,Natural
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_143,4.516866781,143,Mixed Forest,Natural
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_152,0.142938822,152,Shrubland,Natural
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_176,13.03602058,176,Grass/Pasture,Natural
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_190,2.658662093,190,Woody Wetlands,Natural
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_195,0.114351058,195,Herbaceous Wetlands,Natural
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_205,0,205,Triticale,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_220,0,220,Plums,Agriculture
+QG Millers Grove Rd,43.070796,-75.078675,3498,CDL_242,0,242,Blueberries,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_1,21.40401146,1,Corn,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_4,0.085959885,4,Sorghum,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_5,13.03724928,5,Soybeans,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_12,0.05730659,12,Sweet Corn,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_21,0.286532951,21,Barley,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_23,0.05730659,23,Spring Wheat,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_24,1.805157593,24,Winter Wheat,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_27,0.028653295,27,Rye,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_28,2.722063037,28,Oats,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_30,0,30,Speltz,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_36,6.389684814,36,Alfalfa,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_37,6.045845272,37,Other Hay/Non Alfalfa,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_39,0,39,Buckwheat,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_42,0,42,Dry Beans,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_43,0,43,Potatoes,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_53,0,53,Peas,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_58,1.346704871,58,Clover/Wildflowers,Natural
+XQ CR 142,42.597459,-76.720516,3490,CDL_59,0,59,Sod/Grass Seed,Unknown
+XQ CR 142,42.597459,-76.720516,3490,CDL_61,0.487106017,61,Fallow/Idle Cropland,Natural
+XQ CR 142,42.597459,-76.720516,3490,CDL_66,0,66,Cherries,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_67,0.028653295,67,Peaches,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_68,0.05730659,68,Apples,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_69,0.114613181,69,Grapes,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_70,0,70,Christmas Trees,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_77,0,77,Pears,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_111,0,111,Open Water,Water
+XQ CR 142,42.597459,-76.720516,3490,CDL_121,3.180515759,121,Developed/Open Space,Developed
+XQ CR 142,42.597459,-76.720516,3490,CDL_122,1.747851003,122,Developed/Low Intensity,Developed
+XQ CR 142,42.597459,-76.720516,3490,CDL_123,0,123,Developed/Med Intensity,Developed
+XQ CR 142,42.597459,-76.720516,3490,CDL_124,0,124,Developed/High Intensity,Developed
+XQ CR 142,42.597459,-76.720516,3490,CDL_131,0.05730659,131,Barren,Unknown
+XQ CR 142,42.597459,-76.720516,3490,CDL_141,27.02005731,141,Deciduous Forest,Natural
+XQ CR 142,42.597459,-76.720516,3490,CDL_142,0.200573066,142,Evergreen Forest,Natural
+XQ CR 142,42.597459,-76.720516,3490,CDL_143,0.802292264,143,Mixed Forest,Natural
+XQ CR 142,42.597459,-76.720516,3490,CDL_152,0.544412607,152,Shrubland,Natural
+XQ CR 142,42.597459,-76.720516,3490,CDL_176,11.03151862,176,Grass/Pasture,Natural
+XQ CR 142,42.597459,-76.720516,3490,CDL_190,1.1747851,190,Woody Wetlands,Natural
+XQ CR 142,42.597459,-76.720516,3490,CDL_195,0.286532951,195,Herbaceous Wetlands,Natural
+XQ CR 142,42.597459,-76.720516,3490,CDL_205,0,205,Triticale,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_220,0,220,Plums,Agriculture
+XQ CR 142,42.597459,-76.720516,3490,CDL_242,0,242,Blueberries,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_1,0.143266476,1,Corn,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_4,0,4,Sorghum,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_5,0,5,Soybeans,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_12,0,12,Sweet Corn,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_21,0,21,Barley,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_23,0,23,Spring Wheat,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_24,0,24,Winter Wheat,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_27,0,27,Rye,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_28,0,28,Oats,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_30,0,30,Speltz,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_36,0.573065903,36,Alfalfa,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_37,9.914040115,37,Other Hay/Non Alfalfa,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_39,0,39,Buckwheat,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_42,0,42,Dry Beans,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_43,0,43,Potatoes,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_53,0,53,Peas,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_58,0,58,Clover/Wildflowers,Natural
+CN Oddy ,42.8407,-74.3492,3490,CDL_59,0,59,Sod/Grass Seed,Unknown
+CN Oddy ,42.8407,-74.3492,3490,CDL_61,0.028653295,61,Fallow/Idle Cropland,Natural
+CN Oddy ,42.8407,-74.3492,3490,CDL_66,0,66,Cherries,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_67,0,67,Peaches,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_68,0,68,Apples,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_69,0,69,Grapes,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_70,0,70,Christmas Trees,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_77,0,77,Pears,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_111,0.343839542,111,Open Water,Water
+CN Oddy ,42.8407,-74.3492,3490,CDL_121,5.816618911,121,Developed/Open Space,Developed
+CN Oddy ,42.8407,-74.3492,3490,CDL_122,1.260744986,122,Developed/Low Intensity,Developed
+CN Oddy ,42.8407,-74.3492,3490,CDL_123,0.05730659,123,Developed/Med Intensity,Developed
+CN Oddy ,42.8407,-74.3492,3490,CDL_124,0,124,Developed/High Intensity,Developed
+CN Oddy ,42.8407,-74.3492,3490,CDL_131,0,131,Barren,Unknown
+CN Oddy ,42.8407,-74.3492,3490,CDL_141,31.83381089,141,Deciduous Forest,Natural
+CN Oddy ,42.8407,-74.3492,3490,CDL_142,2.750716332,142,Evergreen Forest,Natural
+CN Oddy ,42.8407,-74.3492,3490,CDL_143,24.58452722,143,Mixed Forest,Natural
+CN Oddy ,42.8407,-74.3492,3490,CDL_152,0,152,Shrubland,Natural
+CN Oddy ,42.8407,-74.3492,3490,CDL_176,14.58452722,176,Grass/Pasture,Natural
+CN Oddy ,42.8407,-74.3492,3490,CDL_190,7.851002865,190,Woody Wetlands,Natural
+CN Oddy ,42.8407,-74.3492,3490,CDL_195,0.257879656,195,Herbaceous Wetlands,Natural
+CN Oddy ,42.8407,-74.3492,3490,CDL_205,0,205,Triticale,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_220,0,220,Plums,Agriculture
+CN Oddy ,42.8407,-74.3492,3490,CDL_242,0,242,Blueberries,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_1,6.246418338,1,Corn,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_4,0,4,Sorghum,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_5,0.802292264,5,Soybeans,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_12,0,12,Sweet Corn,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_21,0,21,Barley,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_23,0,23,Spring Wheat,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_24,0.028653295,24,Winter Wheat,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_27,0.028653295,27,Rye,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_28,0.429799427,28,Oats,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_30,0,30,Speltz,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_36,1.232091691,36,Alfalfa,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_37,30.0286533,37,Other Hay/Non Alfalfa,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_39,0,39,Buckwheat,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_42,0,42,Dry Beans,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_43,0,43,Potatoes,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_53,0,53,Peas,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_58,0,58,Clover/Wildflowers,Natural
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_59,0,59,Sod/Grass Seed,Unknown
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_61,0.114613181,61,Fallow/Idle Cropland,Natural
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_66,0,66,Cherries,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_67,0,67,Peaches,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_68,0.05730659,68,Apples,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_69,0,69,Grapes,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_70,0,70,Christmas Trees,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_77,0,77,Pears,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_111,2.349570201,111,Open Water,Water
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_121,3.954154728,121,Developed/Open Space,Developed
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_122,3.209169054,122,Developed/Low Intensity,Developed
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_123,0.888252149,123,Developed/Med Intensity,Developed
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_124,0.028653295,124,Developed/High Intensity,Developed
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_131,0.515759312,131,Barren,Unknown
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_141,22.83667622,141,Deciduous Forest,Natural
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_142,4.498567335,142,Evergreen Forest,Natural
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_143,7.134670487,143,Mixed Forest,Natural
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_152,0.085959885,152,Shrubland,Natural
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_176,11.54727794,176,Grass/Pasture,Natural
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_190,3.810888252,190,Woody Wetlands,Natural
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_195,0.143266476,195,Herbaceous Wetlands,Natural
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_205,0.028653295,205,Triticale,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_220,0,220,Plums,Agriculture
+CN Maryâ€™s,42.93154,-74.400876,3490,CDL_242,0,242,Blueberries,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_1,1.859799714,1,Corn,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_4,0.08583691,4,Sorghum,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_5,1.344778255,5,Soybeans,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_12,0,12,Sweet Corn,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_21,0,21,Barley,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_23,0,23,Spring Wheat,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_24,0.343347639,24,Winter Wheat,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_27,0,27,Rye,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_28,0.057224607,28,Oats,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_30,0,30,Speltz,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_36,2.17453505,36,Alfalfa,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_37,28.46924177,37,Other Hay/Non Alfalfa,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_39,0,39,Buckwheat,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_42,0,42,Dry Beans,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_43,0,43,Potatoes,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_53,0,53,Peas,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_58,0,58,Clover/Wildflowers,Natural
+HG Home Yard,43.16968,-74.95202,3495,CDL_59,0,59,Sod/Grass Seed,Unknown
+HG Home Yard,43.16968,-74.95202,3495,CDL_61,0.028612303,61,Fallow/Idle Cropland,Natural
+HG Home Yard,43.16968,-74.95202,3495,CDL_66,0,66,Cherries,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_67,0,67,Peaches,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_68,0,68,Apples,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_69,0,69,Grapes,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_70,0,70,Christmas Trees,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_77,0,77,Pears,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_111,0,111,Open Water,Water
+HG Home Yard,43.16968,-74.95202,3495,CDL_121,2.231759657,121,Developed/Open Space,Developed
+HG Home Yard,43.16968,-74.95202,3495,CDL_122,0.228898426,122,Developed/Low Intensity,Developed
+HG Home Yard,43.16968,-74.95202,3495,CDL_123,0,123,Developed/Med Intensity,Developed
+HG Home Yard,43.16968,-74.95202,3495,CDL_124,0,124,Developed/High Intensity,Developed
+HG Home Yard,43.16968,-74.95202,3495,CDL_131,0.028612303,131,Barren,Unknown
+HG Home Yard,43.16968,-74.95202,3495,CDL_141,31.3018598,141,Deciduous Forest,Natural
+HG Home Yard,43.16968,-74.95202,3495,CDL_142,3.547925608,142,Evergreen Forest,Natural
+HG Home Yard,43.16968,-74.95202,3495,CDL_143,8.211731044,143,Mixed Forest,Natural
+HG Home Yard,43.16968,-74.95202,3495,CDL_152,0.057224607,152,Shrubland,Natural
+HG Home Yard,43.16968,-74.95202,3495,CDL_176,19.1130186,176,Grass/Pasture,Natural
+HG Home Yard,43.16968,-74.95202,3495,CDL_190,0.801144492,190,Woody Wetlands,Natural
+HG Home Yard,43.16968,-74.95202,3495,CDL_195,0.114449213,195,Herbaceous Wetlands,Natural
+HG Home Yard,43.16968,-74.95202,3495,CDL_205,0,205,Triticale,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_220,0,220,Plums,Agriculture
+HG Home Yard,43.16968,-74.95202,3495,CDL_242,0,242,Blueberries,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_1,13.99942743,1,Corn,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_4,0,4,Sorghum,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_5,0.114514744,5,Soybeans,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_12,0,12,Sweet Corn,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_21,0,21,Barley,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_23,0,23,Spring Wheat,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_24,0,24,Winter Wheat,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_27,0,27,Rye,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_28,0.057257372,28,Oats,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_30,0,30,Speltz,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_36,5.038648726,36,Alfalfa,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_37,7.214428858,37,Other Hay/Non Alfalfa,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_39,0,39,Buckwheat,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_42,0,42,Dry Beans,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_43,0,43,Potatoes,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_53,0,53,Peas,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_58,0.028628686,58,Clover/Wildflowers,Natural
+HG School Yard,43.163575,-75.003761,3493,CDL_59,0,59,Sod/Grass Seed,Unknown
+HG School Yard,43.163575,-75.003761,3493,CDL_61,0.085886058,61,Fallow/Idle Cropland,Natural
+HG School Yard,43.163575,-75.003761,3493,CDL_66,0,66,Cherries,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_67,0,67,Peaches,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_68,0,68,Apples,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_69,0,69,Grapes,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_70,0,70,Christmas Trees,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_77,0,77,Pears,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_111,9.705124535,111,Open Water,Water
+HG School Yard,43.163575,-75.003761,3493,CDL_121,2.691096479,121,Developed/Open Space,Developed
+HG School Yard,43.163575,-75.003761,3493,CDL_122,2.147151446,122,Developed/Low Intensity,Developed
+HG School Yard,43.163575,-75.003761,3493,CDL_123,0.77297452,123,Developed/Med Intensity,Developed
+HG School Yard,43.163575,-75.003761,3493,CDL_124,0.114514744,124,Developed/High Intensity,Developed
+HG School Yard,43.163575,-75.003761,3493,CDL_131,0.229029488,131,Barren,Unknown
+HG School Yard,43.163575,-75.003761,3493,CDL_141,36.73060407,141,Deciduous Forest,Natural
+HG School Yard,43.163575,-75.003761,3493,CDL_142,4.036644718,142,Evergreen Forest,Natural
+HG School Yard,43.163575,-75.003761,3493,CDL_143,5.697108503,143,Mixed Forest,Natural
+HG School Yard,43.163575,-75.003761,3493,CDL_152,0.343544231,152,Shrubland,Natural
+HG School Yard,43.163575,-75.003761,3493,CDL_176,4.179788148,176,Grass/Pasture,Natural
+HG School Yard,43.163575,-75.003761,3493,CDL_190,6.470083023,190,Woody Wetlands,Natural
+HG School Yard,43.163575,-75.003761,3493,CDL_195,0.343544231,195,Herbaceous Wetlands,Natural
+HG School Yard,43.163575,-75.003761,3493,CDL_205,0,205,Triticale,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_220,0,220,Plums,Agriculture
+HG School Yard,43.163575,-75.003761,3493,CDL_242,0,242,Blueberries,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_1,0.975050186,1,Corn,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_4,0.028677947,4,Sorghum,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_5,0.057355893,5,Soybeans,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_12,0,12,Sweet Corn,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_21,0,21,Barley,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_23,0,23,Spring Wheat,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_24,0,24,Winter Wheat,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_27,0,27,Rye,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_28,0.057355893,28,Oats,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_30,0,30,Speltz,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_36,3.297963866,36,Alfalfa,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_37,11.93002581,37,Other Hay/Non Alfalfa,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_39,0,39,Buckwheat,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_42,0,42,Dry Beans,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_43,0,43,Potatoes,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_53,0,53,Peas,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_58,0,58,Clover/Wildflowers,Natural
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_59,0,59,Sod/Grass Seed,Unknown
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_61,0.057355893,61,Fallow/Idle Cropland,Natural
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_66,0,66,Cherries,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_67,0,67,Peaches,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_68,0.057355893,68,Apples,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_69,0,69,Grapes,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_70,0.028677947,70,Christmas Trees,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_77,0,77,Pears,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_111,0,111,Open Water,Water
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_121,4.817895039,121,Developed/Open Space,Developed
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_122,4.559793519,122,Developed/Low Intensity,Developed
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_123,1.20447376,123,Developed/Med Intensity,Developed
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_124,0,124,Developed/High Intensity,Developed
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_131,0.315457413,131,Barren,Unknown
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_141,42.64410668,141,Deciduous Forest,Natural
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_142,3.068540293,142,Evergreen Forest,Natural
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_143,6.653283625,143,Mixed Forest,Natural
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_152,0.08603384,152,Shrubland,Natural
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_176,16.20303986,176,Grass/Pasture,Natural
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_190,3.785488959,190,Woody Wetlands,Natural
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_195,0.17206768,195,Herbaceous Wetlands,Natural
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_205,0,205,Triticale,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_220,0,220,Plums,Agriculture
+QN Rock City Farm,42.39253,-73.56015,3487,CDL_242,0,242,Blueberries,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_1,19.28919461,1,Corn,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_4,0.028661508,4,Sorghum,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_5,7.62396102,5,Soybeans,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_12,0,12,Sweet Corn,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_21,0,21,Barley,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_23,0,23,Spring Wheat,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_24,0.171969046,24,Winter Wheat,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_27,0.257953568,27,Rye,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_28,0.659214675,28,Oats,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_30,0,30,Speltz,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_36,3.611349957,36,Alfalfa,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_37,8.311837203,37,Other Hay/Non Alfalfa,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_39,0,39,Buckwheat,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_42,0,42,Dry Beans,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_43,0.71653769,43,Potatoes,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_53,0,53,Peas,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_58,0.11464603,58,Clover/Wildflowers,Natural
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_59,0,59,Sod/Grass Seed,Unknown
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_61,0.630553167,61,Fallow/Idle Cropland,Natural
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_66,0,66,Cherries,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_67,0,67,Peaches,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_68,0.257953568,68,Apples,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_69,0,69,Grapes,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_70,0,70,Christmas Trees,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_77,0.028661508,77,Pears,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_111,1.060475781,111,Open Water,Water
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_121,1.461736887,121,Developed/Open Space,Developed
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_122,2.006305532,122,Developed/Low Intensity,Developed
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_123,0.257953568,123,Developed/Med Intensity,Developed
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_124,0,124,Developed/High Intensity,Developed
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_131,0.085984523,131,Barren,Unknown
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_141,37.7472055,141,Deciduous Forest,Natural
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_142,0.573230152,142,Evergreen Forest,Natural
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_143,1.777013471,143,Mixed Forest,Natural
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_152,0.057323015,152,Shrubland,Natural
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_176,11.37861852,176,Grass/Pasture,Natural
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_190,1.54772141,190,Woody Wetlands,Natural
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_195,0.343938091,195,Herbaceous Wetlands,Natural
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_205,0,205,Triticale,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_220,0,220,Plums,Agriculture
+QN Miller's Crossing Hill,42.212676,-73.70828,3489,CDL_242,0,242,Blueberries,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_1,11.78489703,1,Corn,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_4,0,4,Sorghum,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_5,6.235697941,5,Soybeans,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_12,0,12,Sweet Corn,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_21,0,21,Barley,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_23,0,23,Spring Wheat,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_24,0.257437071,24,Winter Wheat,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_27,0,27,Rye,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_28,0,28,Oats,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_30,0,30,Speltz,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_36,2.288329519,36,Alfalfa,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_37,1.773455378,37,Other Hay/Non Alfalfa,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_39,0.028604119,39,Buckwheat,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_42,0.028604119,42,Dry Beans,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_43,0,43,Potatoes,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_53,0,53,Peas,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_58,0.028604119,58,Clover/Wildflowers,Natural
+TD Home Yard,43.2386,-76.81811,3496,CDL_59,0,59,Sod/Grass Seed,Unknown
+TD Home Yard,43.2386,-76.81811,3496,CDL_61,0.772311213,61,Fallow/Idle Cropland,Natural
+TD Home Yard,43.2386,-76.81811,3496,CDL_66,0.028604119,66,Cherries,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_67,0,67,Peaches,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_68,28.68993135,68,Apples,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_69,0.028604119,69,Grapes,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_70,0.028604119,70,Christmas Trees,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_77,0.028604119,77,Pears,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_111,0,111,Open Water,Water
+TD Home Yard,43.2386,-76.81811,3496,CDL_121,5.949656751,121,Developed/Open Space,Developed
+TD Home Yard,43.2386,-76.81811,3496,CDL_122,1.029748284,122,Developed/Low Intensity,Developed
+TD Home Yard,43.2386,-76.81811,3496,CDL_123,0.028604119,123,Developed/Med Intensity,Developed
+TD Home Yard,43.2386,-76.81811,3496,CDL_124,0,124,Developed/High Intensity,Developed
+TD Home Yard,43.2386,-76.81811,3496,CDL_131,0.028604119,131,Barren,Unknown
+TD Home Yard,43.2386,-76.81811,3496,CDL_141,29.74828375,141,Deciduous Forest,Natural
+TD Home Yard,43.2386,-76.81811,3496,CDL_142,0.057208238,142,Evergreen Forest,Natural
+TD Home Yard,43.2386,-76.81811,3496,CDL_143,1.201372998,143,Mixed Forest,Natural
+TD Home Yard,43.2386,-76.81811,3496,CDL_152,0.028604119,152,Shrubland,Natural
+TD Home Yard,43.2386,-76.81811,3496,CDL_176,3.432494279,176,Grass/Pasture,Natural
+TD Home Yard,43.2386,-76.81811,3496,CDL_190,6.378718535,190,Woody Wetlands,Natural
+TD Home Yard,43.2386,-76.81811,3496,CDL_195,0.114416476,195,Herbaceous Wetlands,Natural
+TD Home Yard,43.2386,-76.81811,3496,CDL_205,0,205,Triticale,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_220,0,220,Plums,Agriculture
+TD Home Yard,43.2386,-76.81811,3496,CDL_242,0,242,Blueberries,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_1,7.566638005,1,Corn,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_4,0.028661508,4,Sorghum,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_5,13.87216968,5,Soybeans,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_12,0,12,Sweet Corn,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_21,0,21,Barley,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_23,0,23,Spring Wheat,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_24,3.983949556,24,Winter Wheat,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_27,0,27,Rye,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_28,0.028661508,28,Oats,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_30,0.028661508,30,Speltz,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_36,11.60791058,36,Alfalfa,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_37,2.006305532,37,Other Hay/Non Alfalfa,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_39,0,39,Buckwheat,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_42,0,42,Dry Beans,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_43,0,43,Potatoes,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_53,0.057323015,53,Peas,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_58,0.057323015,58,Clover/Wildflowers,Natural
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_59,0,59,Sod/Grass Seed,Unknown
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_61,3.525365434,61,Fallow/Idle Cropland,Natural
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_66,0,66,Cherries,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_67,0,67,Peaches,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_68,2.722843222,68,Apples,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_69,0.229292061,69,Grapes,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_70,0,70,Christmas Trees,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_77,0.028661508,77,Pears,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_111,0,111,Open Water,Water
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_121,2.837489252,121,Developed/Open Space,Developed
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_122,1.031814273,122,Developed/Low Intensity,Developed
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_123,0,123,Developed/Med Intensity,Developed
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_124,0,124,Developed/High Intensity,Developed
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_131,0.085984523,131,Barren,Unknown
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_141,22.15534537,141,Deciduous Forest,Natural
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_142,0.057323015,142,Evergreen Forest,Natural
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_143,1.175121811,143,Mixed Forest,Natural
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_152,0.343938091,152,Shrubland,Natural
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_176,10.63341932,176,Grass/Pasture,Natural
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_190,15.39122958,190,Woody Wetlands,Natural
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_195,0.515907137,195,Herbaceous Wetlands,Natural
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_205,0,205,Triticale,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_220,0.028661508,220,Plums,Agriculture
+EK Daniels Rd,43.258585,-78.846788,3489,CDL_242,0,242,Blueberries,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_1,7.875143184,1,Corn,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_4,0,4,Sorghum,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_5,3.665521191,5,Soybeans,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_12,0,12,Sweet Corn,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_21,0,21,Barley,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_23,0,23,Spring Wheat,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_24,0.143184422,24,Winter Wheat,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_27,0.028636884,27,Rye,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_28,0.028636884,28,Oats,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_30,0,30,Speltz,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_36,0.830469645,36,Alfalfa,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_37,4.381443299,37,Other Hay/Non Alfalfa,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_39,0,39,Buckwheat,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_42,0,42,Dry Beans,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_43,0,43,Potatoes,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_53,0,53,Peas,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_58,0.257731959,58,Clover/Wildflowers,Natural
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_59,0,59,Sod/Grass Seed,Unknown
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_61,0,61,Fallow/Idle Cropland,Natural
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_66,0,66,Cherries,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_67,0,67,Peaches,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_68,0,68,Apples,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_69,0,69,Grapes,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_70,0,70,Christmas Trees,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_77,0,77,Pears,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_111,0,111,Open Water,Water
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_121,7.474226804,121,Developed/Open Space,Developed
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_122,2.46277205,122,Developed/Low Intensity,Developed
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_123,0.171821306,123,Developed/Med Intensity,Developed
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_124,0,124,Developed/High Intensity,Developed
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_131,0,131,Barren,Unknown
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_141,40.66437572,141,Deciduous Forest,Natural
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_142,5.412371134,142,Evergreen Forest,Natural
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_143,18.52806415,143,Mixed Forest,Natural
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_152,0.114547537,152,Shrubland,Natural
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_176,3.379152348,176,Grass/Pasture,Natural
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_190,4.209621993,190,Woody Wetlands,Natural
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_195,0.372279496,195,Herbaceous Wetlands,Natural
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_205,0,205,Triticale,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_220,0,220,Plums,Agriculture
+KI2 Stowe Potato,42.430004,-77.43117,3492,CDL_242,0,242,Blueberries,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_1,3.302699598,1,Corn,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_4,0,4,Sorghum,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_5,0.057438254,5,Soybeans,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_12,0,12,Sweet Corn,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_21,0,21,Barley,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_23,0,23,Spring Wheat,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_24,0.028719127,24,Winter Wheat,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_27,0,27,Rye,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_28,0,28,Oats,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_30,0,30,Speltz,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_36,2.584721424,36,Alfalfa,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_37,18.83974727,37,Other Hay/Non Alfalfa,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_39,0,39,Buckwheat,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_42,0,42,Dry Beans,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_43,0,43,Potatoes,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_53,0,53,Peas,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_58,0.229753016,58,Clover/Wildflowers,Natural
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_59,0,59,Sod/Grass Seed,Unknown
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_61,0.057438254,61,Fallow/Idle Cropland,Natural
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_66,0,66,Cherries,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_67,0,67,Peaches,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_68,0.057438254,68,Apples,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_69,0,69,Grapes,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_70,0,70,Christmas Trees,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_77,0,77,Pears,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_111,0.028719127,111,Open Water,Water
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_121,3.733486502,121,Developed/Open Space,Developed
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_122,0.086157381,122,Developed/Low Intensity,Developed
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_123,0,123,Developed/Med Intensity,Developed
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_124,0,124,Developed/High Intensity,Developed
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_131,0.028719127,131,Barren,Unknown
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_141,34.80758185,141,Deciduous Forest,Natural
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_142,9.707064905,142,Evergreen Forest,Natural
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_143,15.42217117,143,Mixed Forest,Natural
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_152,0.086157381,152,Shrubland,Natural
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_176,9.592188397,176,Grass/Pasture,Natural
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_190,1.234922458,190,Woody Wetlands,Natural
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_195,0.114876508,195,Herbaceous Wetlands,Natural
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_205,0,205,Triticale,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_220,0,220,Plums,Agriculture
+KC Domes Rd Yard,42.564672,-78.588384,3482,CDL_242,0,242,Blueberries,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_1,4.186980212,1,Corn,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_4,0,4,Sorghum,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_5,0.17206768,5,Soybeans,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_12,0,12,Sweet Corn,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_21,0,21,Barley,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_23,0,23,Spring Wheat,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_24,0.028677947,24,Winter Wheat,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_27,0,27,Rye,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_28,0.028677947,28,Oats,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_30,0,30,Speltz,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_36,2.581015199,36,Alfalfa,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_37,21.70920562,37,Other Hay/Non Alfalfa,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_39,0,39,Buckwheat,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_42,0.028677947,42,Dry Beans,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_43,0.028677947,43,Potatoes,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_53,0,53,Peas,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_58,0.200745627,58,Clover/Wildflowers,Natural
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_59,0,59,Sod/Grass Seed,Unknown
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_61,0.114711787,61,Fallow/Idle Cropland,Natural
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_66,0,66,Cherries,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_67,0,67,Peaches,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_68,0.057355893,68,Apples,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_69,0,69,Grapes,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_70,0,70,Christmas Trees,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_77,0,77,Pears,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_111,0.286779467,111,Open Water,Water
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_121,5.706911385,121,Developed/Open Space,Developed
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_122,0.200745627,122,Developed/Low Intensity,Developed
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_123,0,123,Developed/Med Intensity,Developed
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_124,0,124,Developed/High Intensity,Developed
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_131,0,131,Barren,Unknown
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_141,33.09435044,141,Deciduous Forest,Natural
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_142,6.767995412,142,Evergreen Forest,Natural
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_143,10.46745053,143,Mixed Forest,Natural
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_152,0.08603384,152,Shrubland,Natural
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_176,13.04846573,176,Grass/Pasture,Natural
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_190,0.94637224,190,Woody Wetlands,Natural
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_195,0.25810152,195,Herbaceous Wetlands,Natural
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_205,0,205,Triticale,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_220,0,220,Plums,Agriculture
+TN Domes Rd Field,42.568782,-78.588434,3487,CDL_242,0,242,Blueberries,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_1,0.372492837,1,Corn,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_4,0,4,Sorghum,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_5,0.05730659,5,Soybeans,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_12,0,12,Sweet Corn,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_21,0,21,Barley,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_23,0,23,Spring Wheat,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_24,0,24,Winter Wheat,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_27,0,27,Rye,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_28,0.114613181,28,Oats,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_30,0,30,Speltz,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_36,0.401146132,36,Alfalfa,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_37,2.636103152,37,Other Hay/Non Alfalfa,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_39,0,39,Buckwheat,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_42,0,42,Dry Beans,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_43,0,43,Potatoes,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_53,0.028653295,53,Peas,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_58,0.085959885,58,Clover/Wildflowers,Natural
+UT Home Yard,42.39685,-77.91297,3490,CDL_59,0,59,Sod/Grass Seed,Unknown
+UT Home Yard,42.39685,-77.91297,3490,CDL_61,0,61,Fallow/Idle Cropland,Natural
+UT Home Yard,42.39685,-77.91297,3490,CDL_66,0,66,Cherries,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_67,0,67,Peaches,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_68,0,68,Apples,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_69,0,69,Grapes,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_70,0,70,Christmas Trees,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_77,0,77,Pears,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_111,0.05730659,111,Open Water,Water
+UT Home Yard,42.39685,-77.91297,3490,CDL_121,5.444126074,121,Developed/Open Space,Developed
+UT Home Yard,42.39685,-77.91297,3490,CDL_122,0.286532951,122,Developed/Low Intensity,Developed
+UT Home Yard,42.39685,-77.91297,3490,CDL_123,0,123,Developed/Med Intensity,Developed
+UT Home Yard,42.39685,-77.91297,3490,CDL_124,0,124,Developed/High Intensity,Developed
+UT Home Yard,42.39685,-77.91297,3490,CDL_131,0,131,Barren,Unknown
+UT Home Yard,42.39685,-77.91297,3490,CDL_141,72.12034384,141,Deciduous Forest,Natural
+UT Home Yard,42.39685,-77.91297,3490,CDL_142,3.896848138,142,Evergreen Forest,Natural
+UT Home Yard,42.39685,-77.91297,3490,CDL_143,11.54727794,143,Mixed Forest,Natural
+UT Home Yard,42.39685,-77.91297,3490,CDL_152,0.085959885,152,Shrubland,Natural
+UT Home Yard,42.39685,-77.91297,3490,CDL_176,1.547277937,176,Grass/Pasture,Natural
+UT Home Yard,42.39685,-77.91297,3490,CDL_190,1.146131805,190,Woody Wetlands,Natural
+UT Home Yard,42.39685,-77.91297,3490,CDL_195,0.171919771,195,Herbaceous Wetlands,Natural
+UT Home Yard,42.39685,-77.91297,3490,CDL_205,0,205,Triticale,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_220,0,220,Plums,Agriculture
+UT Home Yard,42.39685,-77.91297,3490,CDL_242,0,242,Blueberries,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_1,1.259662182,1,Corn,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_4,0,4,Sorghum,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_5,0.114514744,5,Soybeans,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_12,0,12,Sweet Corn,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_21,0,21,Barley,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_23,0,23,Spring Wheat,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_24,0.057257372,24,Winter Wheat,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_27,0.028628686,27,Rye,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_28,0,28,Oats,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_30,0,30,Speltz,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_36,1.431434297,36,Alfalfa,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_37,6.155167478,37,Other Hay/Non Alfalfa,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_39,0.028628686,39,Buckwheat,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_42,0,42,Dry Beans,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_43,0,43,Potatoes,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_53,0,53,Peas,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_58,0,58,Clover/Wildflowers,Natural
+UQ Center St,43.2458,-75.2706,3493,CDL_59,0,59,Sod/Grass Seed,Unknown
+UQ Center St,43.2458,-75.2706,3493,CDL_61,0,61,Fallow/Idle Cropland,Natural
+UQ Center St,43.2458,-75.2706,3493,CDL_66,0,66,Cherries,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_67,0,67,Peaches,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_68,0,68,Apples,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_69,0,69,Grapes,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_70,0,70,Christmas Trees,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_77,0,77,Pears,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_111,0.028628686,111,Open Water,Water
+UQ Center St,43.2458,-75.2706,3493,CDL_121,4.466075007,121,Developed/Open Space,Developed
+UQ Center St,43.2458,-75.2706,3493,CDL_122,0.515316347,122,Developed/Low Intensity,Developed
+UQ Center St,43.2458,-75.2706,3493,CDL_123,0.028628686,123,Developed/Med Intensity,Developed
+UQ Center St,43.2458,-75.2706,3493,CDL_124,0,124,Developed/High Intensity,Developed
+UQ Center St,43.2458,-75.2706,3493,CDL_131,0,131,Barren,Unknown
+UQ Center St,43.2458,-75.2706,3493,CDL_141,61.52304609,141,Deciduous Forest,Natural
+UQ Center St,43.2458,-75.2706,3493,CDL_142,4.666475809,142,Evergreen Forest,Natural
+UQ Center St,43.2458,-75.2706,3493,CDL_143,3.893501288,143,Mixed Forest,Natural
+UQ Center St,43.2458,-75.2706,3493,CDL_152,0.486687661,152,Shrubland,Natural
+UQ Center St,43.2458,-75.2706,3493,CDL_176,14.54337246,176,Grass/Pasture,Natural
+UQ Center St,43.2458,-75.2706,3493,CDL_190,0.77297452,190,Woody Wetlands,Natural
+UQ Center St,43.2458,-75.2706,3493,CDL_195,0,195,Herbaceous Wetlands,Natural
+UQ Center St,43.2458,-75.2706,3493,CDL_205,0,205,Triticale,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_220,0,220,Plums,Agriculture
+UQ Center St,43.2458,-75.2706,3493,CDL_242,0,242,Blueberries,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_1,0.257953568,1,Corn,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_4,0,4,Sorghum,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_5,0.085984523,5,Soybeans,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_12,0,12,Sweet Corn,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_21,0,21,Barley,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_23,0,23,Spring Wheat,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_24,0.085984523,24,Winter Wheat,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_27,0,27,Rye,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_28,0,28,Oats,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_30,0,30,Speltz,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_36,0.515907137,36,Alfalfa,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_37,2.608197191,37,Other Hay/Non Alfalfa,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_39,0,39,Buckwheat,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_42,0,42,Dry Beans,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_43,0,43,Potatoes,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_53,0,53,Peas,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_58,0.028661508,58,Clover/Wildflowers,Natural
+CI Burns Rd,42.404173,-76.457564,3489,CDL_59,0,59,Sod/Grass Seed,Unknown
+CI Burns Rd,42.404173,-76.457564,3489,CDL_61,0.143307538,61,Fallow/Idle Cropland,Natural
+CI Burns Rd,42.404173,-76.457564,3489,CDL_66,0,66,Cherries,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_67,0,67,Peaches,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_68,0,68,Apples,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_69,0,69,Grapes,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_70,0,70,Christmas Trees,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_77,0,77,Pears,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_111,1.920321009,111,Open Water,Water
+CI Burns Rd,42.404173,-76.457564,3489,CDL_121,5.503009458,121,Developed/Open Space,Developed
+CI Burns Rd,42.404173,-76.457564,3489,CDL_122,0.60189166,122,Developed/Low Intensity,Developed
+CI Burns Rd,42.404173,-76.457564,3489,CDL_123,0.057323015,123,Developed/Med Intensity,Developed
+CI Burns Rd,42.404173,-76.457564,3489,CDL_124,0,124,Developed/High Intensity,Developed
+CI Burns Rd,42.404173,-76.457564,3489,CDL_131,0,131,Barren,Unknown
+CI Burns Rd,42.404173,-76.457564,3489,CDL_141,46.91888793,141,Deciduous Forest,Natural
+CI Burns Rd,42.404173,-76.457564,3489,CDL_142,1.175121811,142,Evergreen Forest,Natural
+CI Burns Rd,42.404173,-76.457564,3489,CDL_143,25.45141874,143,Mixed Forest,Natural
+CI Burns Rd,42.404173,-76.457564,3489,CDL_152,0.544568644,152,Shrubland,Natural
+CI Burns Rd,42.404173,-76.457564,3489,CDL_176,11.14932645,176,Grass/Pasture,Natural
+CI Burns Rd,42.404173,-76.457564,3489,CDL_190,2.407566638,190,Woody Wetlands,Natural
+CI Burns Rd,42.404173,-76.457564,3489,CDL_195,0.515907137,195,Herbaceous Wetlands,Natural
+CI Burns Rd,42.404173,-76.457564,3489,CDL_205,0.028661508,205,Triticale,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_220,0,220,Plums,Agriculture
+CI Burns Rd,42.404173,-76.457564,3489,CDL_242,0,242,Blueberries,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_1,1.746349843,1,Corn,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_4,0,4,Sorghum,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_5,0.314915545,5,Soybeans,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_12,0,12,Sweet Corn,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_21,0,21,Barley,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_23,0,23,Spring Wheat,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_24,0.314915545,24,Winter Wheat,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_27,0,27,Rye,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_28,0,28,Oats,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_30,0,30,Speltz,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_36,1.545949041,36,Alfalfa,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_37,8.130546808,37,Other Hay/Non Alfalfa,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_39,0,39,Buckwheat,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_42,0.057257372,42,Dry Beans,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_43,0,43,Potatoes,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_53,0,53,Peas,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_58,0,58,Clover/Wildflowers,Natural
+CL Bull St,43.158414,-75.986839,3493,CDL_59,0.028628686,59,Sod/Grass Seed,Unknown
+CL Bull St,43.158414,-75.986839,3493,CDL_61,0.14314343,61,Fallow/Idle Cropland,Natural
+CL Bull St,43.158414,-75.986839,3493,CDL_66,0,66,Cherries,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_67,0,67,Peaches,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_68,0,68,Apples,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_69,0,69,Grapes,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_70,0.057257372,70,Christmas Trees,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_77,0,77,Pears,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_111,1.746349843,111,Open Water,Water
+CL Bull St,43.158414,-75.986839,3493,CDL_121,7.787002577,121,Developed/Open Space,Developed
+CL Bull St,43.158414,-75.986839,3493,CDL_122,7.099914114,122,Developed/Low Intensity,Developed
+CL Bull St,43.158414,-75.986839,3493,CDL_123,0.572573719,123,Developed/Med Intensity,Developed
+CL Bull St,43.158414,-75.986839,3493,CDL_124,0.085886058,124,Developed/High Intensity,Developed
+CL Bull St,43.158414,-75.986839,3493,CDL_131,0.085886058,131,Barren,Unknown
+CL Bull St,43.158414,-75.986839,3493,CDL_141,44.31720584,141,Deciduous Forest,Natural
+CL Bull St,43.158414,-75.986839,3493,CDL_142,0.314915545,142,Evergreen Forest,Natural
+CL Bull St,43.158414,-75.986839,3493,CDL_143,0.944746636,143,Mixed Forest,Natural
+CL Bull St,43.158414,-75.986839,3493,CDL_152,1.030632694,152,Shrubland,Natural
+CL Bull St,43.158414,-75.986839,3493,CDL_176,15.34497567,176,Grass/Pasture,Natural
+CL Bull St,43.158414,-75.986839,3493,CDL_190,7.815631263,190,Woody Wetlands,Natural
+CL Bull St,43.158414,-75.986839,3493,CDL_195,0.486687661,195,Herbaceous Wetlands,Natural
+CL Bull St,43.158414,-75.986839,3493,CDL_205,0,205,Triticale,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_220,0,220,Plums,Agriculture
+CL Bull St,43.158414,-75.986839,3493,CDL_242,0.028628686,242,Blueberries,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_1,0.343839542,1,Corn,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_4,0,4,Sorghum,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_5,0.171919771,5,Soybeans,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_12,0,12,Sweet Corn,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_21,0,21,Barley,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_23,0,23,Spring Wheat,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_24,0,24,Winter Wheat,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_27,0,27,Rye,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_28,0.028653295,28,Oats,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_30,0,30,Speltz,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_36,0.487106017,36,Alfalfa,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_37,0.573065903,37,Other Hay/Non Alfalfa,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_39,0,39,Buckwheat,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_42,0,42,Dry Beans,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_43,0,43,Potatoes,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_53,0,53,Peas,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_58,0,58,Clover/Wildflowers,Natural
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_59,0,59,Sod/Grass Seed,Unknown
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_61,0.05730659,61,Fallow/Idle Cropland,Natural
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_66,0.028653295,66,Cherries,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_67,0,67,Peaches,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_68,12.49283668,68,Apples,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_69,0,69,Grapes,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_70,0,70,Christmas Trees,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_77,0.401146132,77,Pears,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_111,0.143266476,111,Open Water,Water
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_121,6.934097421,121,Developed/Open Space,Developed
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_122,1.00286533,122,Developed/Low Intensity,Developed
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_123,0,123,Developed/Med Intensity,Developed
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_124,0,124,Developed/High Intensity,Developed
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_131,0,131,Barren,Unknown
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_141,51.2034384,141,Deciduous Forest,Natural
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_142,0.200573066,142,Evergreen Forest,Natural
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_143,3.696275072,143,Mixed Forest,Natural
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_152,0.085959885,152,Shrubland,Natural
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_176,6.446991404,176,Grass/Pasture,Natural
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_190,15.44412607,190,Woody Wetlands,Natural
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_195,0.257879656,195,Herbaceous Wetlands,Natural
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_205,0,205,Triticale,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_220,0,220,Plums,Agriculture
+CW Maxwell Rd,43.238648,-77.031688,3490,CDL_242,0,242,Blueberries,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_1,14.55533314,1,Corn,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_4,0.028595939,4,Sorghum,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_5,0.200171576,5,Soybeans,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_12,0,12,Sweet Corn,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_21,0,21,Barley,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_23,0,23,Spring Wheat,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_24,0.028595939,24,Winter Wheat,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_27,0,27,Rye,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_28,0.085787818,28,Oats,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_30,0,30,Speltz,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_36,12.83957678,36,Alfalfa,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_37,11.26680011,37,Other Hay/Non Alfalfa,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_39,0,39,Buckwheat,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_42,0.028595939,42,Dry Beans,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_43,0,43,Potatoes,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_53,0,53,Peas,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_58,0.028595939,58,Clover/Wildflowers,Natural
+FW Huggins,42.16285,-75.59508,3497,CDL_59,0,59,Sod/Grass Seed,Unknown
+FW Huggins,42.16285,-75.59508,3497,CDL_61,0,61,Fallow/Idle Cropland,Natural
+FW Huggins,42.16285,-75.59508,3497,CDL_66,0,66,Cherries,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_67,0,67,Peaches,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_68,0,68,Apples,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_69,0,69,Grapes,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_70,0,70,Christmas Trees,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_77,0,77,Pears,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_111,5.03288533,111,Open Water,Water
+FW Huggins,42.16285,-75.59508,3497,CDL_121,5.919359451,121,Developed/Open Space,Developed
+FW Huggins,42.16285,-75.59508,3497,CDL_122,0.200171576,122,Developed/Low Intensity,Developed
+FW Huggins,42.16285,-75.59508,3497,CDL_123,0,123,Developed/Med Intensity,Developed
+FW Huggins,42.16285,-75.59508,3497,CDL_124,0,124,Developed/High Intensity,Developed
+FW Huggins,42.16285,-75.59508,3497,CDL_131,0.028595939,131,Barren,Unknown
+FW Huggins,42.16285,-75.59508,3497,CDL_141,23.0197312,141,Deciduous Forest,Natural
+FW Huggins,42.16285,-75.59508,3497,CDL_142,0.800686303,142,Evergreen Forest,Natural
+FW Huggins,42.16285,-75.59508,3497,CDL_143,19.15927938,143,Mixed Forest,Natural
+FW Huggins,42.16285,-75.59508,3497,CDL_152,0,152,Shrubland,Natural
+FW Huggins,42.16285,-75.59508,3497,CDL_176,4.861309694,176,Grass/Pasture,Natural
+FW Huggins,42.16285,-75.59508,3497,CDL_190,1.772948241,190,Woody Wetlands,Natural
+FW Huggins,42.16285,-75.59508,3497,CDL_195,0.142979697,195,Herbaceous Wetlands,Natural
+FW Huggins,42.16285,-75.59508,3497,CDL_205,0,205,Triticale,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_220,0,220,Plums,Agriculture
+FW Huggins,42.16285,-75.59508,3497,CDL_242,0,242,Blueberries,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_1,8.764367816,1,Corn,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_4,0,4,Sorghum,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_5,0.143678161,5,Soybeans,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_12,0.028735632,12,Sweet Corn,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_21,0,21,Barley,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_23,0,23,Spring Wheat,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_24,0.028735632,24,Winter Wheat,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_27,0,27,Rye,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_28,0.229885057,28,Oats,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_30,0,30,Speltz,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_36,4.281609195,36,Alfalfa,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_37,6.896551724,37,Other Hay/Non Alfalfa,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_39,0,39,Buckwheat,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_42,0.086206897,42,Dry Beans,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_43,0,43,Potatoes,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_53,0,53,Peas,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_58,0,58,Clover/Wildflowers,Natural
+MM Swede Rd,42.078054,-79.438599,3480,CDL_59,0,59,Sod/Grass Seed,Unknown
+MM Swede Rd,42.078054,-79.438599,3480,CDL_61,0.028735632,61,Fallow/Idle Cropland,Natural
+MM Swede Rd,42.078054,-79.438599,3480,CDL_66,0,66,Cherries,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_67,0,67,Peaches,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_68,0.086206897,68,Apples,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_69,0.057471264,69,Grapes,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_70,0,70,Christmas Trees,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_77,0,77,Pears,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_111,0,111,Open Water,Water
+MM Swede Rd,42.078054,-79.438599,3480,CDL_121,3.41954023,121,Developed/Open Space,Developed
+MM Swede Rd,42.078054,-79.438599,3480,CDL_122,0.431034483,122,Developed/Low Intensity,Developed
+MM Swede Rd,42.078054,-79.438599,3480,CDL_123,0,123,Developed/Med Intensity,Developed
+MM Swede Rd,42.078054,-79.438599,3480,CDL_124,0,124,Developed/High Intensity,Developed
+MM Swede Rd,42.078054,-79.438599,3480,CDL_131,0.028735632,131,Barren,Unknown
+MM Swede Rd,42.078054,-79.438599,3480,CDL_141,36.29310345,141,Deciduous Forest,Natural
+MM Swede Rd,42.078054,-79.438599,3480,CDL_142,6.867816092,142,Evergreen Forest,Natural
+MM Swede Rd,42.078054,-79.438599,3480,CDL_143,11.89655172,143,Mixed Forest,Natural
+MM Swede Rd,42.078054,-79.438599,3480,CDL_152,0.114942529,152,Shrubland,Natural
+MM Swede Rd,42.078054,-79.438599,3480,CDL_176,18.67816092,176,Grass/Pasture,Natural
+MM Swede Rd,42.078054,-79.438599,3480,CDL_190,1.408045977,190,Woody Wetlands,Natural
+MM Swede Rd,42.078054,-79.438599,3480,CDL_195,0.229885057,195,Herbaceous Wetlands,Natural
+MM Swede Rd,42.078054,-79.438599,3480,CDL_205,0,205,Triticale,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_220,0,220,Plums,Agriculture
+MM Swede Rd,42.078054,-79.438599,3480,CDL_242,0,242,Blueberries,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_1,4.265674206,1,Corn,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_4,0,4,Sorghum,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_5,0.085886058,5,Soybeans,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_12,0,12,Sweet Corn,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_21,0,21,Barley,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_23,0,23,Spring Wheat,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_24,0,24,Winter Wheat,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_27,0,27,Rye,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_28,0,28,Oats,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_30,0,30,Speltz,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_36,6.441454337,36,Alfalfa,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_37,21.52877183,37,Other Hay/Non Alfalfa,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_39,0,39,Buckwheat,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_42,0,42,Dry Beans,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_43,0,43,Potatoes,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_53,0,53,Peas,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_58,0,58,Clover/Wildflowers,Natural
+TI Mill Rd,43.040603,-74.660982,3493,CDL_59,0,59,Sod/Grass Seed,Unknown
+TI Mill Rd,43.040603,-74.660982,3493,CDL_61,0.028628686,61,Fallow/Idle Cropland,Natural
+TI Mill Rd,43.040603,-74.660982,3493,CDL_66,0,66,Cherries,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_67,0,67,Peaches,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_68,0,68,Apples,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_69,0,69,Grapes,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_70,0.028628686,70,Christmas Trees,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_77,0,77,Pears,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_111,0,111,Open Water,Water
+TI Mill Rd,43.040603,-74.660982,3493,CDL_121,3.922129974,121,Developed/Open Space,Developed
+TI Mill Rd,43.040603,-74.660982,3493,CDL_122,0.14314343,122,Developed/Low Intensity,Developed
+TI Mill Rd,43.040603,-74.660982,3493,CDL_123,0.085886058,123,Developed/Med Intensity,Developed
+TI Mill Rd,43.040603,-74.660982,3493,CDL_124,0,124,Developed/High Intensity,Developed
+TI Mill Rd,43.040603,-74.660982,3493,CDL_131,0,131,Barren,Unknown
+TI Mill Rd,43.040603,-74.660982,3493,CDL_141,35.52819926,141,Deciduous Forest,Natural
+TI Mill Rd,43.040603,-74.660982,3493,CDL_142,8.04466075,142,Evergreen Forest,Natural
+TI Mill Rd,43.040603,-74.660982,3493,CDL_143,4.666475809,143,Mixed Forest,Natural
+TI Mill Rd,43.040603,-74.660982,3493,CDL_152,0.114514744,152,Shrubland,Natural
+TI Mill Rd,43.040603,-74.660982,3493,CDL_176,9.561981105,176,Grass/Pasture,Natural
+TI Mill Rd,43.040603,-74.660982,3493,CDL_190,5.410821643,190,Woody Wetlands,Natural
+TI Mill Rd,43.040603,-74.660982,3493,CDL_195,0.14314343,195,Herbaceous Wetlands,Natural
+TI Mill Rd,43.040603,-74.660982,3493,CDL_205,0,205,Triticale,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_220,0,220,Plums,Agriculture
+TI Mill Rd,43.040603,-74.660982,3493,CDL_242,0,242,Blueberries,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_1,19.04761905,1,Corn,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_4,0,4,Sorghum,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_5,1.462994836,5,Soybeans,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_12,0,12,Sweet Corn,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_21,0,21,Barley,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_23,0,23,Spring Wheat,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_24,0.200803213,24,Winter Wheat,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_27,0,27,Rye,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_28,0,28,Oats,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_30,0,30,Speltz,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_36,4.188181297,36,Alfalfa,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_37,2.323580034,37,Other Hay/Non Alfalfa,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_39,0,39,Buckwheat,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_42,0,42,Dry Beans,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_43,0,43,Potatoes,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_53,0,53,Peas,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_58,0,58,Clover/Wildflowers,Natural
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_59,0,59,Sod/Grass Seed,Unknown
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_61,0.286861733,61,Fallow/Idle Cropland,Natural
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_66,0,66,Cherries,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_67,0,67,Peaches,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_68,0.545037292,68,Apples,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_69,0.08605852,69,Grapes,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_70,0.028686173,70,Christmas Trees,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_77,0.17211704,77,Pears,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_111,0.114744693,111,Open Water,Water
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_121,6.540447504,121,Developed/Open Space,Developed
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_122,3.786574871,122,Developed/Low Intensity,Developed
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_123,0.200803213,123,Developed/Med Intensity,Developed
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_124,0,124,Developed/High Intensity,Developed
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_131,0.057372347,131,Barren,Unknown
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_141,33.30464716,141,Deciduous Forest,Natural
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_142,0.458978772,142,Evergreen Forest,Natural
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_143,2.81124498,143,Mixed Forest,Natural
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_152,0.114744693,152,Shrubland,Natural
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_176,15.14629948,176,Grass/Pasture,Natural
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_190,8.777969019,190,Woody Wetlands,Natural
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_195,0.344234079,195,Herbaceous Wetlands,Natural
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_205,0,205,Triticale,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_220,0,220,Plums,Agriculture
+BD Marbletown Rd,43.031423,-77.071561,3486,CDL_242,0,242,Blueberries,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_1,1.375752365,1,Corn,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_4,0,4,Sorghum,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_5,0.544568644,5,Soybeans,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_12,0,12,Sweet Corn,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_21,0,21,Barley,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_23,0,23,Spring Wheat,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_24,0.11464603,24,Winter Wheat,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_27,0,27,Rye,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_28,0,28,Oats,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_30,0,30,Speltz,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_36,4.872456291,36,Alfalfa,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_37,2.522212668,37,Other Hay/Non Alfalfa,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_39,0,39,Buckwheat,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_42,0,42,Dry Beans,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_43,0,43,Potatoes,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_53,0,53,Peas,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_58,0.286615076,58,Clover/Wildflowers,Natural
+NG Ball Rd,43.18208,-77.1929,3489,CDL_59,0,59,Sod/Grass Seed,Unknown
+NG Ball Rd,43.18208,-77.1929,3489,CDL_61,0.143307538,61,Fallow/Idle Cropland,Natural
+NG Ball Rd,43.18208,-77.1929,3489,CDL_66,0.028661508,66,Cherries,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_67,0,67,Peaches,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_68,5.674978504,68,Apples,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_69,0.028661508,69,Grapes,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_70,0.143307538,70,Christmas Trees,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_77,0.028661508,77,Pears,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_111,0.11464603,111,Open Water,Water
+NG Ball Rd,43.18208,-77.1929,3489,CDL_121,3.955288048,121,Developed/Open Space,Developed
+NG Ball Rd,43.18208,-77.1929,3489,CDL_122,1.060475781,122,Developed/Low Intensity,Developed
+NG Ball Rd,43.18208,-77.1929,3489,CDL_123,0.028661508,123,Developed/Med Intensity,Developed
+NG Ball Rd,43.18208,-77.1929,3489,CDL_124,0,124,Developed/High Intensity,Developed
+NG Ball Rd,43.18208,-77.1929,3489,CDL_131,0,131,Barren,Unknown
+NG Ball Rd,43.18208,-77.1929,3489,CDL_141,54.51418745,141,Deciduous Forest,Natural
+NG Ball Rd,43.18208,-77.1929,3489,CDL_142,1.375752365,142,Evergreen Forest,Natural
+NG Ball Rd,43.18208,-77.1929,3489,CDL_143,3.296073373,143,Mixed Forest,Natural
+NG Ball Rd,43.18208,-77.1929,3489,CDL_152,0.143307538,152,Shrubland,Natural
+NG Ball Rd,43.18208,-77.1929,3489,CDL_176,11.80854113,176,Grass/Pasture,Natural
+NG Ball Rd,43.18208,-77.1929,3489,CDL_190,7.566638005,190,Woody Wetlands,Natural
+NG Ball Rd,43.18208,-77.1929,3489,CDL_195,0.343938091,195,Herbaceous Wetlands,Natural
+NG Ball Rd,43.18208,-77.1929,3489,CDL_205,0.028661508,205,Triticale,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_220,0,220,Plums,Agriculture
+NG Ball Rd,43.18208,-77.1929,3489,CDL_242,0,242,Blueberries,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_1,6.555969081,1,Corn,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_4,0,4,Sorghum,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_5,0.944746636,5,Soybeans,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_12,0,12,Sweet Corn,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_21,0,21,Barley,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_23,0,23,Spring Wheat,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_24,0.057257372,24,Winter Wheat,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_27,0.028628686,27,Rye,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_28,0.028628686,28,Oats,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_30,0,30,Speltz,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_36,11.82364729,36,Alfalfa,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_37,9.447466361,37,Other Hay/Non Alfalfa,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_39,0,39,Buckwheat,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_42,2.576581735,42,Dry Beans,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_43,0,43,Potatoes,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_53,0,53,Peas,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_58,0,58,Clover/Wildflowers,Natural
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_59,0,59,Sod/Grass Seed,Unknown
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_61,0.028628686,61,Fallow/Idle Cropland,Natural
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_66,0,66,Cherries,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_67,0,67,Peaches,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_68,0,68,Apples,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_69,0,69,Grapes,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_70,0,70,Christmas Trees,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_77,0,77,Pears,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_111,0,111,Open Water,Water
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_121,4.580589751,121,Developed/Open Space,Developed
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_122,0.429430289,122,Developed/Low Intensity,Developed
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_123,0.028628686,123,Developed/Med Intensity,Developed
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_124,0,124,Developed/High Intensity,Developed
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_131,0,131,Barren,Unknown
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_141,42.570856,141,Deciduous Forest,Natural
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_142,0.515316347,142,Evergreen Forest,Natural
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_143,1.97537933,143,Mixed Forest,Natural
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_152,0.114514744,152,Shrubland,Natural
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_176,17.83567134,176,Grass/Pasture,Natural
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_190,0.400801603,190,Woody Wetlands,Natural
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_195,0.057257372,195,Herbaceous Wetlands,Natural
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_205,0,205,Triticale,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_220,0,220,Plums,Agriculture
+LT Grange Hill Rd,43.020306,-75.29292,3493,CDL_242,0,242,Blueberries,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_1,24.95706926,1,Corn,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_4,0,4,Sorghum,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_5,6.010303377,5,Soybeans,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_12,0,12,Sweet Corn,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_21,0,21,Barley,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_23,0,23,Spring Wheat,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_24,4.493417287,24,Winter Wheat,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_27,0,27,Rye,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_28,0.114481969,28,Oats,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_30,0,30,Speltz,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_36,14.05266171,36,Alfalfa,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_37,2.432741843,37,Other Hay/Non Alfalfa,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_39,0,39,Buckwheat,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_42,1.974813967,42,Dry Beans,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_43,0,43,Potatoes,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_53,0,53,Peas,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_58,0,58,Clover/Wildflowers,Natural
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_59,0,59,Sod/Grass Seed,Unknown
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_61,0,61,Fallow/Idle Cropland,Natural
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_66,0,66,Cherries,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_67,0,67,Peaches,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_68,0,68,Apples,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_69,0,69,Grapes,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_70,0,70,Christmas Trees,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_77,0,77,Pears,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_111,0,111,Open Water,Water
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_121,4.40755581,121,Developed/Open Space,Developed
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_122,0.457927876,122,Developed/Low Intensity,Developed
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_123,0,123,Developed/Med Intensity,Developed
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_124,0,124,Developed/High Intensity,Developed
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_131,0,131,Barren,Unknown
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_141,25.84430452,141,Deciduous Forest,Natural
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_142,0.057240985,142,Evergreen Forest,Natural
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_143,0.25758443,143,Mixed Forest,Natural
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_152,0.572409845,152,Shrubland,Natural
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_176,8.643388666,176,Grass/Pasture,Natural
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_190,5.552375501,190,Woody Wetlands,Natural
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_195,0.171722954,195,Herbaceous Wetlands,Natural
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_205,0,205,Triticale,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_220,0,220,Plums,Agriculture
+LT Waterville Sheds,42.952547,-75.352275,3494,CDL_242,0,242,Blueberries,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_1,0.630191922,1,Corn,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_4,0,4,Sorghum,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_5,0.143225437,5,Soybeans,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_12,0,12,Sweet Corn,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_21,0,21,Barley,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_23,0,23,Spring Wheat,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_24,0.057290175,24,Winter Wheat,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_27,0.171870524,27,Rye,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_28,0,28,Oats,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_30,0,30,Speltz,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_36,8.364365511,36,Alfalfa,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_37,4.439988542,37,Other Hay/Non Alfalfa,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_39,0,39,Buckwheat,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_42,0,42,Dry Beans,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_43,0,43,Potatoes,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_53,0,53,Peas,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_58,0.286450874,58,Clover/Wildflowers,Natural
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_59,0,59,Sod/Grass Seed,Unknown
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_61,0.143225437,61,Fallow/Idle Cropland,Natural
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_66,0,66,Cherries,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_67,0,67,Peaches,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_68,0.171870524,68,Apples,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_69,0.057290175,69,Grapes,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_70,0.028645087,70,Christmas Trees,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_77,0,77,Pears,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_111,19.5073045,111,Open Water,Water
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_121,9.195073045,121,Developed/Open Space,Developed
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_122,1.890575766,122,Developed/Low Intensity,Developed
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_123,0.085935262,123,Developed/Med Intensity,Developed
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_124,0,124,Developed/High Intensity,Developed
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_131,0,131,Barren,Unknown
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_141,30.53566313,141,Deciduous Forest,Natural
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_142,0.572901747,142,Evergreen Forest,Natural
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_143,5.012890289,143,Mixed Forest,Natural
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_152,2.520767688,152,Shrubland,Natural
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_176,11.85906617,176,Grass/Pasture,Natural
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_190,3.895731882,190,Woody Wetlands,Natural
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_195,0.401031223,195,Herbaceous Wetlands,Natural
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_205,0.028645087,205,Triticale,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_220,0,220,Plums,Agriculture
+XQ King Town Beach Rd,42.5736,-76.6541,3491,CDL_242,0,242,Blueberries,Agriculture
