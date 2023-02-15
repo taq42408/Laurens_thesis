@@ -33,7 +33,9 @@ ggplot(data = aggregate_values)+
   geom_histogram(mapping = aes(x = percent_land_cover))+
   facet_wrap(~Prelim_Agg_Land_Class)+
   ylab("Number of Sites")+
-  xlab("Percent Land Cover")
+  xlab("Percent Land Cover")+
+  ggtitle("Distribution of Percent Land Cover by Preliminary Aggregate Land Class")
+
 
 # Made a ggplot
 #aggregate_values %>%
