@@ -32,7 +32,6 @@ ggplot(data = aggregate_values)+
   geom_histogram(mapping = aes(x = percent_land_cover))+
   facet_wrap(~Prelim_Agg_Land_Class)
   #stat_bin(y=count(),binwidth = 5)
-geom_bar()
 
 # Made a ggplot
 #aggregate_values %>%
