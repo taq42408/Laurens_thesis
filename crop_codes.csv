@@ -1,0 +1,135 @@
+Code,Cover_Type,Crop_Code,Prelim_Agg_Land_Class
+0,Background,CDL_0,Unknown
+1,Corn,CDL_1,Agriculture
+2,Cotton,CDL_2,Agriculture
+3,Rice,CDL_3,Agriculture
+4,Sorghum,CDL_4,Agriculture
+5,Soybeans,CDL_5,Agriculture
+6,Sunflower,CDL_6,Agriculture
+10,Peanuts,CDL_10,Agriculture
+11,Tobacco,CDL_11,Agriculture
+12,Sweet Corn,CDL_12,Agriculture
+13,Pop or Orn Corn,CDL_13,Agriculture
+14,Mint,CDL_14,Agriculture
+21,Barley,CDL_21,Agriculture
+22,Durum Wheat,CDL_22,Agriculture
+23,Spring Wheat,CDL_23,Agriculture
+24,Winter Wheat,CDL_24,Agriculture
+25,Other Small Grains,CDL_25,Agriculture
+26,Dbl Crop WinWht/Soybeans,CDL_26,Agriculture
+27,Rye,CDL_27,Agriculture
+28,Oats,CDL_28,Agriculture
+29,Millet,CDL_29,Agriculture
+30,Speltz,CDL_30,Agriculture
+31,Canola,CDL_31,Agriculture
+32,Flaxseed,CDL_32,Agriculture
+33,Safflower,CDL_33,Agriculture
+34,Rape Seed,CDL_34,Agriculture
+35,Mustard,CDL_35,Agriculture
+36,Alfalfa,CDL_36,Agriculture
+37,Other Hay/Non Alfalfa,CDL_37,Agriculture
+38,Camelina,CDL_38,Agriculture
+39,Buckwheat,CDL_39,Agriculture
+41,Sugarbeets,CDL_41,Agriculture
+42,Dry Beans,CDL_42,Agriculture
+43,Potatoes,CDL_43,Agriculture
+44,Other Crops,CDL_44,Agriculture
+45,Sugarcane,CDL_45,Agriculture
+46,Sweet Potatoes,CDL_46,Agriculture
+47,Misc Vegs & Fruits,CDL_47,Agriculture
+48,Watermelons,CDL_48,Agriculture
+49,Onions,CDL_49,Agriculture
+50,Cucumbers,CDL_50,Agriculture
+51,Chick Peas,CDL_51,Agriculture
+52,Lentils,CDL_52,Agriculture
+53,Peas,CDL_53,Agriculture
+54,Tomatoes,CDL_54,Agriculture
+55,Caneberries,CDL_55,Agriculture
+56,Hops,CDL_56,Agriculture
+57,Herbs,CDL_57,Agriculture
+58,Clover/Wildflowers,CDL_58,Natural
+59,Sod/Grass Seed,CDL_59,Unknown
+60,Switchgrass,CDL_60,Natural
+61,Fallow/Idle Cropland,CDL_61,Natural
+63,Forest,CDL_63,Natural
+64,Shrubland,CDL_64,Natural
+65,Barren,CDL_65,Unknown
+66,Cherries,CDL_66,Agriculture
+67,Peaches,CDL_67,Agriculture
+68,Apples,CDL_68,Agriculture
+69,Grapes,CDL_69,Agriculture
+70,Christmas Trees,CDL_70,Agriculture
+71,Other Tree Crops,CDL_71,Agriculture
+72,Citrus,CDL_72,Agriculture
+74,Pecans,CDL_74,Agriculture
+75,Almonds,CDL_75,Agriculture
+76,Walnuts,CDL_76,Agriculture
+77,Pears,CDL_77,Agriculture
+81,Clouds/No Data,CDL_81,Unknown
+82,Developed,CDL_82,Developed
+83,Water,CDL_83,Water
+87,Wetlands,CDL_87,Natural
+88,Nonag/Undefined,CDL_88,Unknown
+92,Aquaculture,CDL_92,Water
+111,Open Water,CDL_111,Water
+112,Perennial Ice/Snow ,CDL_112,Natural
+121,Developed/Open Space,CDL_121,Developed
+122,Developed/Low Intensity,CDL_122,Developed
+123,Developed/Med Intensity,CDL_123,Developed
+124,Developed/High Intensity,CDL_124,Developed
+131,Barren,CDL_131,Unknown
+141,Deciduous Forest,CDL_141,Natural
+142,Evergreen Forest,CDL_142,Natural
+143,Mixed Forest,CDL_143,Natural
+152,Shrubland,CDL_152,Natural
+176,Grass/Pasture,CDL_176,Natural
+190,Woody Wetlands,CDL_190,Natural
+195,Herbaceous Wetlands,CDL_195,Natural
+204,Pistachios,CDL_204,Agriculture
+205,Triticale,CDL_205,Agriculture
+206,Carrots,CDL_206,Agriculture
+207,Asparagus,CDL_207,Agriculture
+208,Garlic,CDL_208,Agriculture
+209,Cantaloupes,CDL_209,Agriculture
+210,Prunes,CDL_210,Agriculture
+211,Olives,CDL_211,Agriculture
+212,Oranges,CDL_212,Agriculture
+213,Honeydew Melons,CDL_213,Agriculture
+214,Broccoli,CDL_214,Agriculture
+215,Avocados,CDL_215,Agriculture
+216,Peppers,CDL_216,Agriculture
+217,Pomegranates,CDL_217,Agriculture
+218,Nectarines,CDL_218,Agriculture
+219,Greens,CDL_219,Agriculture
+220,Plums,CDL_220,Agriculture
+221,Strawberries,CDL_221,Agriculture
+222,Squash,CDL_222,Agriculture
+223,Apricots,CDL_223,Agriculture
+224,Vetch,CDL_224,Natural
+225,Dbl Crop WinWht/Corn,CDL_225,Agriculture
+226,Dbl Crop Oats/Corn,CDL_226,Agriculture
+227,Lettuce,CDL_227,Agriculture
+228,Dbl Crop Triticale/Corn,CDL_228,Agriculture
+229,Pumpkins,CDL_229,Agriculture
+230,Dbl Crop Lettuce/Durum Wht,CDL_230,Agriculture
+231,Dbl Crop Lettuce/Cantaloupe,CDL_231,Agriculture
+232,Dbl Crop Lettuce/Cotton,CDL_232,Agriculture
+233,Dbl Crop Lettuce/Barley,CDL_233,Agriculture
+234,Dbl Crop Durum Wht/Sorghum,CDL_234,Agriculture
+235,Dbl Crop Barley/Sorghum,CDL_235,Agriculture
+236,Dbl Crop WinWht/Sorghum,CDL_236,Agriculture
+237,Dbl Crop Barley/Corn,CDL_237,Agriculture
+238,Dbl Crop WinWht/Cotton,CDL_238,Agriculture
+239,Dbl Crop Soybeans/Cotton,CDL_239,Agriculture
+240,Dbl Crop Soybeans/Oats,CDL_240,Agriculture
+241,Dbl Crop Corn/Soybeans,CDL_241,Agriculture
+242,Blueberries,CDL_242,Agriculture
+243,Cabbage,CDL_243,Agriculture
+244,Cauliflower,CDL_244,Agriculture
+245,Celery,CDL_245,Agriculture
+246,Radishes,CDL_246,Agriculture
+247,Turnips,CDL_247,Agriculture
+248,Eggplants,CDL_248,Agriculture
+249,Gourds,CDL_249,Agriculture
+250,Cranberries,CDL_250,Agriculture
+254,Dbl Crop Barley/Soybeans,CDL_254,Agriculture
