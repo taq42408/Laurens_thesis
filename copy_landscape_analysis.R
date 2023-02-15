@@ -25,13 +25,13 @@ Land_Cover_Cleaned_longer = pivot_longer(Land_Cover_Cleaned, cols = CDL_1:CDL_24
   left_join(crops_codes, by="Crop_Code")
 
 aggregate_values = Land_Cover_Cleaned_longer %>% 
+  filter(Prelim_Agg_Land_Class==c('Agriculture','Developed','Natural')) %>%
   group_by(Apiary.1.Name, Prelim_Agg_Land_Class) %>%
-  summarize(percent_land_cover = sum(Value))
+  summarize(percent_land_cover = sum(Value)) 
 
 ggplot(data = aggregate_values)+
   geom_histogram(mapping = aes(x = percent_land_cover))+
   facet_wrap(~Prelim_Agg_Land_Class)
-  #stat_bin(y=count(),binwidth = 5)
 
 # Made a ggplot
 #aggregate_values %>%
