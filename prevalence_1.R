@@ -1,0 +1,5 @@
+flower_meta=read_csv("C:/Users/laure/Desktop/Laurens_thesis/Flower_metadata.csv")
+flower_qpcr=read_csv("C:/Users/laure/Desktop/Laurens_thesis/Flower_qPCR_master.csv")
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
