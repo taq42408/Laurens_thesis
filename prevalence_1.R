@@ -12,3 +12,5 @@ flower_meta_comb=flower_qpcr%>%
 prevalence = table(flower_meta_comb$Apiary_ID, flower_meta_comb$dwv)
 prevalence_table = prop.table(prevalence, margin=1)
 prevalence_table
+
+read.csv(aggregate_values)
