@@ -2,6 +2,10 @@ flower_meta=read_csv("C:/Users/laure/Desktop/Laurens_thesis/Flower_metadata.csv"
   select(-c("...25","...26","...27","...28","...29","...30"))
 flower_qpcr=read_csv("C:/Users/laure/Desktop/Laurens_thesis/Flower_qPCR_master.csv")%>%
   filter(Content=="Unkn" & !Sample_ID=="NA")
+varroa <- read_csv("C:/Users/laure/Desktop/Laurens_thesis/varroa-loads.csv") %>% 
+  group_by(Apiary_ID) %>% 
+  summarize(varroa_avg = mean(Varroa_Load))
+
 library(dplyr)
 library(tidyverse)
 library(ggplot2)
