@@ -1,82 +1,82 @@
-"","Apiary.1.Name","Prelim_Agg_Land_Class","percent_land_cover"
-"1","BD Marbletown Rd","Agriculture",28.0550774526678
-"2","BD Marbletown Rd","Developed",10.5278255880666
-"3","BD Marbletown Rd","Natural",61.2449799196787
-"4","CI Burns Rd","Agriculture",3.58268844941244
-"5","CI Burns Rd","Developed",6.16222413298939
-"6","CI Burns Rd","Natural",88.3347664087131
-"7","CL Bull St","Agriculture",12.1958202118523
-"8","CL Bull St","Developed",15.5453764672202
-"9","CL Bull St","Natural",70.3979387346121
-"10","CN Mary’s","Agriculture",38.8825214899713
-"11","CN Mary’s","Developed",8.08022922636103
-"12","CN Mary’s","Natural",50.1719197707736
-"13","CN Oddy ","Agriculture",10.6303724928367
-"14","CN Oddy ","Developed",7.13467048710602
-"15","CN Oddy ","Natural",81.89111747851
-"16","CW Maxwell Rd","Agriculture",14.5272206303725
-"17","CW Maxwell Rd","Developed",7.93696275071633
-"18","CW Maxwell Rd","Natural",77.3925501432665
-"19","EK Daniels Rd","Agriculture",42.1897391802809
-"20","EK Daniels Rd","Developed",3.86930352536543
-"21","EK Daniels Rd","Natural",53.8549727715678
-"22","FW Huggins","Agriculture",39.0334572490706
-"23","FW Huggins","Developed",6.11953102659422
-"24","FW Huggins","Natural",49.7855304546754
-"25","HG Home Yard","Agriculture",34.3347639484979
-"26","HG Home Yard","Developed",2.46065808297568
-"27","HG Home Yard","Natural",63.1759656652361
-"28","HG School Yard","Agriculture",26.4242771256799
-"29","HG School Yard","Developed",5.72573718866304
-"30","HG School Yard","Natural",57.9158316633266
-"31","KC Domes Rd Yard","Agriculture",24.8707639287766
-"32","KC Domes Rd Yard","Developed",3.81964388282596
-"33","KC Domes Rd Yard","Natural",71.2521539345204
-"34","KI2 Stowe Potato","Agriculture",16.9530355097365
-"35","KI2 Stowe Potato","Developed",10.1088201603666
-"36","KI2 Stowe Potato","Natural",72.9381443298969
-"37","LT Grange Hill Rd","Agriculture",31.4629258517034
-"38","LT Grange Hill Rd","Developed",5.03864872602348
-"39","LT Grange Hill Rd","Natural",63.4984254222731
-"40","LT Waterville Sheds","Agriculture",54.0354894104179
-"41","LT Waterville Sheds","Developed",4.86548368631941
-"42","LT Waterville Sheds","Natural",41.0990269032627
-"43","MM Swede Rd","Agriculture",20.6034482758621
-"44","MM Swede Rd","Developed",3.85057471264368
-"45","MM Swede Rd","Natural",75.5172413793103
-"46","NG Ball Rd","Agriculture",15.3625680710805
-"47","NG Ball Rd","Developed",5.04442533677271
-"48","NG Ball Rd","Natural",79.4783605617656
-"49","QG Johnson Rd","Agriculture",12.8036581880537
-"50","QG Johnson Rd","Developed",5.08716776221778
-"51","QG Johnson Rd","Natural",82.0805944555587
-"52","QG Millers Grove Rd","Agriculture",37.4213836477987
-"53","QG Millers Grove Rd","Developed",7.6043453401944
-"54","QG Millers Grove Rd","Natural",54.94568324757
-"55","QN Miller's Crossing Hill","Agriculture",40.957294353683
-"56","QN Miller's Crossing Hill","Developed",3.72599598738894
-"57","QN Miller's Crossing Hill","Natural",54.1702493551161
-"58","QN Rock City Farm","Agriculture",16.432463435618
-"59","QN Rock City Farm","Developed",10.5821623171781
-"60","QN Rock City Farm","Natural",72.6699168339547
-"61","TD Home Yard","Agriculture",51.2013729977117
-"62","TD Home Yard","Developed",7.00800915331808
-"63","TD Home Yard","Natural",41.7620137299771
-"64","TI Mill Rd","Agriculture",32.3504151159462
-"65","TI Mill Rd","Developed",4.1511594617807
-"66","TI Mill Rd","Natural",63.4984254222731
-"67","TN Domes Rd Field","Agriculture",28.8213363923143
-"68","TN Domes Rd Field","Developed",5.90765701175796
-"69","TN Domes Rd Field","Natural",64.9842271293375
-"70","UQ Center St","Agriculture",9.07529344403092
-"71","UQ Center St","Developed",5.01002004008016
-"72","UQ Center St","Natural",85.8860578299456
-"73","UT Home Yard","Agriculture",3.61031518624642
-"74","UT Home Yard","Developed",5.73065902578797
-"75","UT Home Yard","Natural",90.6017191977077
-"76","XQ CR 142","Agriculture",52.1203438395415
-"77","XQ CR 142","Developed",4.92836676217765
-"78","XQ CR 142","Natural",42.8939828080229
-"79","XQ King Town Beach Rd","Agriculture",14.0933829848181
-"80","XQ King Town Beach Rd","Developed",11.1715840733314
-"81","XQ King Town Beach Rd","Natural",55.2277284445718
+,Apiary_ID,Prelim_Agg_Land_Class,percent_land_cover
+1,BD Marbletown Rd,Agriculture,28.05507745
+2,BD Marbletown Rd,Developed,10.52782559
+3,BD Marbletown Rd,Natural,61.24497992
+4,CI Burns Rd,Agriculture,3.582688449
+5,CI Burns Rd,Developed,6.162224133
+6,CI Burns Rd,Natural,88.33476641
+7,CL_Bull,Agriculture,12.19582021
+8,CL_Bull,Developed,15.54537647
+9,CL_Bull,Natural,70.39793873
+10,CN Mary’s,Agriculture,38.88252149
+11,CN Mary’s,Developed,8.080229226
+12,CN Mary’s,Natural,50.17191977
+13,CN_Oddy ,Agriculture,10.63037249
+14,CN_Oddy ,Developed,7.134670487
+15,CN_Oddy ,Natural,81.89111748
+16,CW_Maxwell,Agriculture,14.52722063
+17,CW_Maxwell,Developed,7.936962751
+18,CW_Maxwell,Natural,77.39255014
+19,EK_Daniels,Agriculture,42.18973918
+20,EK_Daniels,Developed,3.869303525
+21,EK_Daniels,Natural,53.85497277
+22,FW_Huggins,Agriculture,39.03345725
+23,FW_Huggins,Developed,6.119531027
+24,FW_Huggins,Natural,49.78553045
+25,HG Home Yard,Agriculture,34.33476395
+26,HG Home Yard,Developed,2.460658083
+27,HG Home Yard,Natural,63.17596567
+28,HG_School,Agriculture,26.42427713
+29,HG_School,Developed,5.725737189
+30,HG_School,Natural,57.91583166
+31,KC_Domes,Agriculture,24.87076393
+32,KC_Domes,Developed,3.819643883
+33,KC_Domes,Natural,71.25215393
+34,KI2 Stowe Potato,Agriculture,16.95303551
+35,KI2 Stowe Potato,Developed,10.10882016
+36,KI2 Stowe Potato,Natural,72.93814433
+37,LT_Grange,Agriculture,31.46292585
+38,LT_Grange,Developed,5.038648726
+39,LT_Grange,Natural,63.49842542
+40,LT Waterville Sheds,Agriculture,54.03548941
+41,LT Waterville Sheds,Developed,4.865483686
+42,LT Waterville Sheds,Natural,41.0990269
+43,MM_Swede,Agriculture,20.60344828
+44,MM_Swede,Developed,3.850574713
+45,MM_Swede,Natural,75.51724138
+46,NG_Ball_Rd,Agriculture,15.36256807
+47,NG_Ball_Rd,Developed,5.044425337
+48,NG_Ball_Rd,Natural,79.47836056
+49,QG_Johnson,Agriculture,12.80365819
+50,QG_Johnson,Developed,5.087167762
+51,QG_Johnson,Natural,82.08059446
+52,QG Millers Grove Rd,Agriculture,37.42138365
+53,QG Millers Grove Rd,Developed,7.60434534
+54,QG Millers Grove Rd,Natural,54.94568325
+55,QN_Millers,Agriculture,40.95729435
+56,QN_Millers,Developed,3.725995987
+57,QN_Millers,Natural,54.17024936
+58,QN Rock City Farm,Agriculture,16.43246344
+59,QN Rock City Farm,Developed,10.58216232
+60,QN Rock City Farm,Natural,72.66991683
+61,TD_Home_Yard,Agriculture,51.201373
+62,TD_Home_Yard,Developed,7.008009153
+63,TD_Home_Yard,Natural,41.76201373
+64,TI_Mills,Agriculture,32.35041512
+65,TI_Mills,Developed,4.151159462
+66,TI_Mills,Natural,63.49842542
+67,TN Domes Rd Field,Agriculture,28.82133639
+68,TN Domes Rd Field,Developed,5.907657012
+69,TN Domes Rd Field,Natural,64.98422713
+70,UQ Center St,Agriculture,9.075293444
+71,UQ Center St,Developed,5.01002004
+72,UQ Center St,Natural,85.88605783
+73,UT_Home_Yard,Agriculture,3.610315186
+74,UT_Home_Yard,Developed,5.730659026
+75,UT_Home_Yard,Natural,90.6017192
+76,XQ CR 142,Agriculture,52.12034384
+77,XQ CR 142,Developed,4.928366762
+78,XQ CR 142,Natural,42.89398281
+79,XQ_Kingtown_Beach,Agriculture,14.09338298
+80,XQ_Kingtown_Beach,Developed,11.17158407
+81,XQ_Kingtown_Beach,Natural,55.22772844
