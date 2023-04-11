@@ -26,14 +26,33 @@ prevalence_table = as.data.frame(prop.table(prevalence, margin=1))%>%
   filter(Var2==1)%>%
   rename(Apiary_ID=Var1, dwv_presence=Var2)
 
+natural=read.csv("C:/Users/laure/Desktop/Laurens_thesis/aggregate_values.csv")%>%
+  filter(Prelim_Agg_Land_Class=='Natural')%>%
+  rename(natural_percent=percent_land_cover)
+
 prevalence_table_2=prevalence_table%>%
   left_join(varroa) %>% 
   left_join(apiary_size) %>% 
-  left_join(agg_values)
+  left_join(agriculture)%>%
+  left_join(natural)%>%
+  select(-X)
+
+v=lm(prevalence_table_2$Freq~prevalence_table_2$varroa_avg)
+c=lm(prevalence_table_2$Freq~prevalence_table_2$colony_number)
+n=lm(prevalence_table_2$Freq~prevalence_table_2$natural_percent)
+a=lm(prevalence_table_2$Freq~prevalence_table_2$agriculture_percent)
 
 plot(prevalence_table_2$Freq~prevalence_table_2$varroa_avg)
+abline(v,col="blue")
+plot(prevalence_table_2$Freq~prevalence_table_2$colony_number)
+abline(c,col="blue")
+plot(prevalence_table_2$Freq~prevalence_table_2$natural_percent)
+abline(n,col="blue")
+plot(prevalence_table_2$Freq~prevalence_table_2$agriculture_percent)
+abline(a,col="blue")
 
-agg_values=read.csv("C:/Users/laure/Desktop/Laurens_thesis/aggregate_values.csv")%>%
-  filter(Prelim_Agg_Land_Class=='Natural')
-prevalence_table_3=prevalence_table_2%>%
-  left_join(agg_values)
+agriculture=read.csv("C:/Users/laure/Desktop/Laurens_thesis/aggregrate_values.csv")%>%
+  filter(Prelim_Agg_Land_Class=='Agriculture')%>%
+  rename(agriculture_percent=percent_land_cover)
+
+
