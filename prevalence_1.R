@@ -15,13 +15,21 @@ flower_meta_comb=flower_qpcr%>%
   mutate(dwv=ifelse(c(SQ>0 & `Melt Temp`<=83 & `Melt Temp`>=81),1,0))%>%
   relocate(dwv,.after=`Melt Temp`)
 
+apiary_size = flower_meta_comb %>% 
+  filter(!`# of Colonies`=="NA") %>% 
+  group_by(Apiary_ID) %>% 
+  summarize(colony_number = mean(`# of Colonies`))
+View(apiary_size)
+
 prevalence = table(flower_meta_comb$Apiary_ID, flower_meta_comb$dwv)
 prevalence_table = as.data.frame(prop.table(prevalence, margin=1))%>%
   filter(Var2==1)%>%
   rename(Apiary_ID=Var1, dwv_presence=Var2)
 
 prevalence_table_2=prevalence_table%>%
-  left_join(varroa)
+  left_join(varroa) %>% 
+  left_join(apiary_size) %>% 
+  left_join(agg_values)
 
 plot(prevalence_table_2$Freq~prevalence_table_2$varroa_avg)
 
