@@ -89,6 +89,10 @@ overdisp_fun(model)
 #to correct for this, we can use an observation-level random effect; each observation has its own p (that is normally distributed)
 #in binomials, our parameters are n (total sample size) & p (proportion )
 #overdispersion is the presence of greater variability (statistical dispersion) in a data set than would be expected based on a given statistical model.
+#in binomial/poisson, the mean and variance are related to each other (binomial - probabilityy of each sample turning up positive is exactly the same)
+#So for 5 sites, we have all the same treatments, we assume the probability of positive is the same, and mean and variance are assumed to be the same 
+# but there are inter-site differences that are not the treatments that influence the probability, so we need to account for these site to site differences w a random effect of site
+# random effect removes the link bw mean and variance 
 
 model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+colony_number+(1|Apiary_ID), family=binomial, data=prev)
 #+Num_colonies as fixed effect
