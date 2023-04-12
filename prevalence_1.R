@@ -9,6 +9,8 @@ varroa <- read_csv("C:/Users/laure/Desktop/Laurens_thesis/varroa-loads.csv") %>%
 library(dplyr)
 library(tidyverse)
 library(ggplot2)
+library(lme4)
+library(lmerTest)
 
 flower_meta_comb=flower_qpcr%>%
   left_join(flower_meta,by=('Sample_ID'))%>%
@@ -55,4 +57,21 @@ agriculture=read.csv("C:/Users/laure/Desktop/Laurens_thesis/aggregrate_values.cs
   filter(Prelim_Agg_Land_Class=='Agriculture')%>%
   rename(agriculture_percent=percent_land_cover)
 
+# STATS HERE ----
+hist(prev$DWV_prev)
 
+model <-glm(cbind(DWV_positives, DWV_negatives)~varroa_avg + colony_number, family=binomial, data=prev)
+summary(model)
+#successes first, failures second in binomial model 
+#As a two-column integer matrix: the first column gives the number of successes and the second the number of failure
+#Now we need to check if the model is overdispersed
+
+overdisp_fun <- function(model) {
+  rdf <- df.residual(model)
+  rp <- residuals(model,type="pearson")
+  Pearson.chisq <- sum(rp^2)
+  prat <- Pearson.chisq/rdf
+  pval <- pchisq(Pearson.chisq, df=rdf, lower.tail=FALSE)
+  c(chisq=Pearson.chisq,ratio=prat,rdf=rdf,p=pval)
+}
+overdisp_fun(model)
