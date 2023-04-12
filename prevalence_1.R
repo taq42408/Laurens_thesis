@@ -58,6 +58,15 @@ agriculture=read.csv("C:/Users/laure/Desktop/Laurens_thesis/aggregrate_values.cs
   rename(agriculture_percent=percent_land_cover)
 
 # STATS HERE ----
+prev = flower_meta_comb %>% 
+  group_by(Apiary_ID) %>% 
+  summarize(DWV_positives = sum(dwv), total_flowers=n()) %>% 
+  mutate(DWV_prev=DWV_positives/total_flowers) %>% 
+  mutate(DWV_negatives=(total_flowers-DWV_positives)) %>% 
+  left_join(varroa) %>% 
+  left_join(apiary_size)
+View(prev)
+
 hist(prev$DWV_prev)
 
 model <-glm(cbind(DWV_positives, DWV_negatives)~varroa_avg + colony_number, family=binomial, data=prev)
