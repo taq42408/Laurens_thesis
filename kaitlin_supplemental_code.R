@@ -27,10 +27,9 @@ flower_meta_comb <- flower_qpcr %>%
   rename(Apiary_ID=Apiary_ID.x) %>% 
   select(Sample_ID, Apiary_ID, Cq, SQ, `Melt Temp`, dwv, Date,`# of Colonies`, `Quadrat #`, `Distance to colonies (m)`, `# of HB Visits`) %>% 
   left_join(varroa)
-
+flower_meta_comb$`Distance to colonies (m)` = as.numeric(flower_meta_comb$`Distance to colonies (m)`)
 View(flower_meta_comb)
 str(flower_meta_comb)
-flower_meta_comb$`Distance to colonies (m)` = as.numeric(flower_meta_comb$`Distance to colonies (m)`)
 
 apiary_size = flower_meta %>% 
   filter(!`# of Colonies`=="NA") %>% 
@@ -121,6 +120,38 @@ ggplot(data=model.emp.col, aes(x=colony_number, y=yvar)) +
   ylab("DWV prevalence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
+###### Flower ~ Distance --------
+flower_meta_comb <- flower_qpcr %>% 
+  left_join(flower_meta, by="Sample_ID") %>% 
+  mutate(dwv=ifelse(c(SQ>0 & `Melt Temp`<= 83 & `Melt Temp` >= 81), 1, 0)) %>% 
+  relocate(dwv, .after=`Melt Temp`) %>% 
+  rename(Apiary_ID=Apiary_ID.x) %>% 
+  select(Sample_ID, Apiary_ID, Cq, SQ, `Melt Temp`, dwv, Date,`# of Colonies`, `Quadrat #`, `Distance to colonies (m)`, `# of HB Visits`) %>% 
+  left_join(varroa)
+flower_meta_comb$`Distance to colonies (m)` = as.numeric(flower_meta_comb$`Distance to colonies (m)`)
+View(flower_meta_comb)
+str(flower_meta_comb)
 
+model <-glmer(dwv~`Distance to colonies (m)`+(1|Apiary_ID), family=binomial, data=flower_meta_comb)
+summary(model)
+overdisp_fun(model)
+#random intercept model 
 
+emmeans(model, ~`Distance to colonies (m)`, at=list(`Distance to colonies (m)`= c(0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,250,300,350,400,450,500,550)), type="response")
+model.emp <- emmip(model, ~`Distance to colonies (m)`, at=list(`Distance to colonies (m)`= c(0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,250,300,350,400,450,500,550)), type="response", CIs = TRUE, plotit = FALSE)
+#this at the logit of the probability of the model
+#plot data on top of our emmip
+
+#emmeans(model, ~varroa_avg,at=list(varroa_avg= c(1,5,10,15)), type="response")
+#model.emp <- emmip(model, ~varroa_avg, at=list(varroa_avg= c(1,5,10,15)), type="response", CIs = TRUE, plotit = FALSE)
+#fewer steps, the more chunky the line looks 
+
+ggplot(data=model.emp, aes(x=`Distance to colonies (m)`, y=yvar)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
+  geom_point(data=flower_meta_comb, aes(x=`Distance to colonies (m)`, y=dwv), size=3)+ 
+  theme_light() +
+  xlab("Distance from nearest honey bee colony") +
+  ylab("DWV prevalence on goldenrod flowers") +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
   

@@ -136,3 +136,33 @@ ggplot(data=model.emp.col, aes(x=colony_number, y=yvar)) +
   xlab("Number of colonies") +
   ylab("DWV prevalence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
+
+###### Flower ~ Distance --------
+flower_meta_comb <- flower_qpcr %>% 
+  left_join(flower_meta, by="Sample_ID") %>% 
+  mutate(dwv=ifelse(c(SQ>0 & `Melt Temp`<= 83 & `Melt Temp` >= 81), 1, 0)) %>% 
+  relocate(dwv, .after=`Melt Temp`) %>% 
+  rename(Apiary_ID=Apiary_ID.x) %>% 
+  select(Sample_ID, Apiary_ID, Cq, SQ, `Melt Temp`, dwv, Date,`# of Colonies`, `Quadrat #`, `Distance to colonies (m)`, `# of HB Visits`) %>% 
+  left_join(varroa)
+flower_meta_comb$`Distance to colonies (m)` = as.numeric(flower_meta_comb$`Distance to colonies (m)`)
+View(flower_meta_comb)
+str(flower_meta_comb)
+
+dist.model <-glm(dwv~`Distance to colonies (m)`, family=binomial, data=flower_meta_comb)
+summary(dist.model)
+overdisp_fun(dist.model)
+#this model is not overdispersed - we don't need to add a random effect
+
+emmeans(dist.model, ~`Distance to colonies (m)`, at=list(`Distance to colonies (m)`= c(0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,410,420,430,440,450,460,470,480,490,500,510,520,530,540,550)), type="response")
+model.dist.emp <- emmip(dist.model, ~`Distance to colonies (m)`, at=list(`Distance to colonies (m)`= c(0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,410,420,430,440,450,460,470,480,490,500,510,520,530,540,550)), type="response", CIs = TRUE, plotit = FALSE)
+
+ggplot(data=model.dist.emp, aes(x=`Distance to colonies (m)`, y=yvar)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
+  geom_point(data=flower_meta_comb, aes(x=`Distance to colonies (m)`, y=dwv), size=3)+ 
+  theme_light() +
+  xlab("Distance from nearest honey bee colony") +
+  ylab("DWV prevalence on goldenrod flowers") +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
+
