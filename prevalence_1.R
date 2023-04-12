@@ -84,3 +84,48 @@ overdisp_fun <- function(model) {
   c(chisq=Pearson.chisq,ratio=prat,rdf=rdf,p=pval)
 }
 overdisp_fun(model)
+
+#check overdispersion parameter - our model IS significantly overdispersed (p-value is significant);
+#to correct for this, we can use an observation-level random effect; each observation has its own p (that is normally distributed)
+#in binomials, our parameters are n (total sample size) & p (proportion )
+#overdispersion is the presence of greater variability (statistical dispersion) in a data set than would be expected based on a given statistical model.
+
+model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+colony_number+(1|Apiary_ID), family=binomial, data=prev)
+#+Num_colonies as fixed effect
+summary(model)
+overdisp_fun(model)
+#random intercept model 
+
+emmeans(model, ~varroa_avg,at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)), type="response")
+model.emp <- emmip(model, ~varroa_avg, at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)), type="response", CIs = TRUE, plotit = FALSE)
+#this at the logit of the probability of the model
+#plot data on top of our emmip
+
+#emmeans(model, ~varroa_avg,at=list(varroa_avg= c(1,5,10,15)), type="response")
+#model.emp <- emmip(model, ~varroa_avg, at=list(varroa_avg= c(1,5,10,15)), type="response", CIs = TRUE, plotit = FALSE)
+#fewer steps, the more chunky the line looks 
+
+ggplot(data=model.emp, aes(x=varroa_avg, y=yvar)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
+  geom_point(data=prev, aes(x=varroa_avg, y=DWV_prev), size=3)+ 
+  theme_light() +
+  xlab("Average Varroa Load per 100 honey bees") +
+  ylab("DWV prevalence on goldenrod flowers") +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
+
+##this model has accounted for the number of colonies! <--- I took it out for simplicity Nov 6 2022, add back in later
+
+emmeans(model, ~colony_number,at=list(colony_number= c(1,5,10,15,20,25,30,35,40,45,50)), type="response")
+model.emp.col <- emmip(model, ~colony_number, at=list(colony_number= c(1,5,10,15,20,25,30,35,40,45,50)), type="response", CIs = TRUE, plotit = FALSE)
+#this at the logit of the probability of the model
+#plot data on top of our emmip
+
+ggplot(data=model.emp.col, aes(x=colony_number, y=yvar)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
+  geom_point(data=prev, aes(x=colony_number, y=DWV_prev), size=3)+ 
+  theme_light() +
+  xlab("Number of colonies") +
+  ylab("DWV prevalence on goldenrod flowers") +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
