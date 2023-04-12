@@ -1,5 +1,4 @@
-flower_meta=read_csv("C:/Users/laure/Desktop/Laurens_thesis/Flower_metadata.csv")%>%
-  select(-c("...25","...26","...27","...28","...29","...30"))
+flower_meta=read_csv("C:/Users/laure/Desktop/Laurens_thesis/Flower_metadata.csv")
 flower_qpcr=read_csv("C:/Users/laure/Desktop/Laurens_thesis/Flower_qPCR_master.csv")%>%
   filter(Content=="Unkn" & !Sample_ID=="NA")
 varroa <- read_csv("C:/Users/laure/Desktop/Laurens_thesis/varroa-loads.csv") %>% 
@@ -43,7 +42,10 @@ v=lm(prevalence_table_2$Freq~prevalence_table_2$varroa_avg)
 c=lm(prevalence_table_2$Freq~prevalence_table_2$colony_number)
 n=lm(prevalence_table_2$Freq~prevalence_table_2$natural_percent)
 a=lm(prevalence_table_2$Freq~prevalence_table_2$agriculture_percent)
+s=lm(prevalence_table_2$varroa_avg~prevalence_table_2$colony_number)
 
+plot(prevalence_table_2$varroa_avg~prevalence_table_2$colony_number)
+abline(s,col="blue")
 plot(prevalence_table_2$Freq~prevalence_table_2$varroa_avg)
 abline(v,col="blue")
 plot(prevalence_table_2$Freq~prevalence_table_2$colony_number)
