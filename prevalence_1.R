@@ -16,6 +16,12 @@ flower_meta_comb=flower_qpcr%>%
   mutate(dwv=ifelse(c(SQ>0 & `Melt Temp`<=83 & `Melt Temp`>=81),1,0))%>%
   relocate(dwv,.after=`Melt Temp`)
 
+flower_meta_comb$quadrat_date <- paste(flower_meta_comb$`Quadrat #`,
+                                       flower_meta_comb$`Date (numeric)`,
+                                       sep="_"
+                                       )
+
+
 apiary_size = flower_meta_comb %>% 
   filter(!`# of Colonies`=="NA") %>% 
   group_by(Apiary_ID) %>% 
@@ -153,7 +159,8 @@ flower_meta_comb$`Distance to colonies (m)` = as.numeric(flower_meta_comb$`Dista
 View(flower_meta_comb)
 str(flower_meta_comb)
 
-dist.model <-glmer(dwv~`Distance to colonies (m)`+(1|Apiary_ID/`Quadrat #`), family=binomial, data=flower_meta_comb)
+library(glmmTMB)
+dist.model <-glmmTMB(dwv~`Distance to colonies (m)`+(1|Apiary_ID/quadrat_date), family=binomial, data=flower_meta_comb)
 summary(dist.model)
 overdisp_fun(dist.model)
 #this model is not overdispersed - we don't need to add a random effect
