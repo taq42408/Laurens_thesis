@@ -66,6 +66,15 @@ honeybee_visits = flower_meta_comb %>%
   group_by(Apiary_ID) %>% 
   summarize(average_visitation = mean(`# of HB Visits`))
 
+treatments <- read_csv("C:/Users/laure/Desktop/Laurens_thesis/TechTeam-data_2020-ONLY.csv") %>% 
+  filter(!`Apiary Treatments per year`=="N/A")
+treatments$`Apiary Treatments per year`=as.numeric(treatments$`Apiary Treatments per year`)
+beek <-treatments %>% 
+  filter(!Apiary_ID=="NA") %>% 
+  group_by(Apiary_ID) %>% 
+  summarize(number_treatments = mean(`Apiary Treatments per year`))
+View(treatments)
+
 # STATS HERE ----
 prev = flower_meta_comb %>% 
   group_by(Apiary_ID) %>% 
@@ -76,6 +85,7 @@ prev = flower_meta_comb %>%
   left_join(apiary_size)%>%
   left_join(honeybee_visits)%>%
   left_join(natural)%>%
+  left_join(beek) %>% 
   select(-X)
 View(prev)
 
