@@ -148,7 +148,7 @@ flower_meta_comb$`Distance to colonies (m)` = as.numeric(flower_meta_comb$`Dista
 View(flower_meta_comb)
 str(flower_meta_comb)
 
-dist.model <-glm(dwv~`Distance to colonies (m)`, family=binomial, data=flower_meta_comb)
+dist.model <-glmer(dwv~`Distance to colonies (m)`+(1|Apiary_ID), family=binomial, data=flower_meta_comb)
 summary(dist.model)
 overdisp_fun(dist.model)
 #this model is not overdispersed - we don't need to add a random effect
