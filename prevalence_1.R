@@ -118,12 +118,12 @@ overdisp_fun(model)
 
 #glmer has fixed and random effects, glm just has fixed effects. g means you are not assuming the data is normally distributed 
 
-model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+colony_number+average_visitation+percent_natural+(1|Apiary_ID), family=binomial, data=prev)
+model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+colony_number+average_visitation+percent_natural+number_treatments+(1|Apiary_ID), family=binomial, data=prev)
 #+Num_colonies as fixed effect
 summary(model)
 overdisp_fun(model)
 #random intercept model 
-round(cor(prev[, c("varroa_avg", "colony_number", "average_visitation", "percent_natural")]), 3)
+round(cor(prev[, c("varroa_avg", "colony_number", "average_visitation", "percent_natural","number_treatments")]), 3)
 
 library(emmeans)
 emmeans(model, ~varroa_avg,at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)), type="response")
