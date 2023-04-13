@@ -102,6 +102,7 @@ summary(model)
 overdisp_fun(model)
 #random intercept model 
 
+library(emmeans)
 emmeans(model, ~varroa_avg,at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)), type="response")
 model.emp <- emmip(model, ~varroa_avg, at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)), type="response", CIs = TRUE, plotit = FALSE)
 #this at the logit of the probability of the model
@@ -110,6 +111,7 @@ model.emp <- emmip(model, ~varroa_avg, at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9
 #emmeans(model, ~varroa_avg,at=list(varroa_avg= c(1,5,10,15)), type="response")
 #model.emp <- emmip(model, ~varroa_avg, at=list(varroa_avg= c(1,5,10,15)), type="response", CIs = TRUE, plotit = FALSE)
 #fewer steps, the more chunky the line looks 
+#emmeans is determining the predictive prevalence of DWV at each site, which we then draw a line through with the model function
 
 ggplot(data=model.emp, aes(x=varroa_avg, y=yvar)) +
   geom_line() +
@@ -153,6 +155,8 @@ summary(dist.model)
 overdisp_fun(dist.model)
 #this model is not overdispersed - we don't need to add a random effect
 
+#glmer is running the statistics to determine significance
+#emmeans is determining the predictive chance of one flower having DWV at each distance, which we then draw a line through with the model function
 emmeans(dist.model, ~`Distance to colonies (m)`, at=list(`Distance to colonies (m)`= c(0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,410,420,430,440,450,460,470,480,490,500,510,520,530,540,550)), type="response")
 model.dist.emp <- emmip(dist.model, ~`Distance to colonies (m)`, at=list(`Distance to colonies (m)`= c(0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,410,420,430,440,450,460,470,480,490,500,510,520,530,540,550)), type="response", CIs = TRUE, plotit = FALSE)
 

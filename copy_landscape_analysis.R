@@ -47,3 +47,4 @@ ggplot(data = aggregate_values)+
   #theme(axis.text.x = element_text(angle=75, size=12, hjust=1))+
   #facet_wrap(~Prelim_Agg_Land_Class)
 
+write.csv(aggregate_values, file="aggregate_values.csv")
