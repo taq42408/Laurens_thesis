@@ -16,6 +16,12 @@ flower_meta_comb=flower_qpcr%>%
   mutate(dwv=ifelse(c(SQ>0 & `Melt Temp`<=83 & `Melt Temp`>=81),1,0))%>%
   relocate(dwv,.after=`Melt Temp`)
 
+flower_meta_comb$quadrat_date <- paste(flower_meta_comb$`Quadrat #`,
+                                       flower_meta_comb$`Date (numeric)`,
+                                       sep="_"
+                                       )
+
+
 apiary_size = flower_meta_comb %>% 
   filter(!`# of Colonies`=="NA") %>% 
   group_by(Apiary_ID) %>% 
@@ -29,19 +35,21 @@ prevalence_table = as.data.frame(prop.table(prevalence, margin=1))%>%
 
 natural=read.csv("C:/Users/laure/Desktop/Laurens_thesis/aggregate_values.csv")%>%
   filter(Prelim_Agg_Land_Class=='Natural')%>%
-  rename(natural_percent=percent_land_cover)
+  rename(percent_natural=percent_land_cover)
+
+agriculture=read.csv("C:/Users/laure/Desktop/Laurens_thesis/aggregate_values.csv")%>%
+  filter(Prelim_Agg_Land_Class=='Agriculture')%>%
+  rename(agriculture_percent=percent_land_cover)
 
 prevalence_table_2=prevalence_table%>%
   left_join(varroa) %>% 
   left_join(apiary_size) %>% 
-  left_join(agriculture)%>%
   left_join(natural)%>%
   select(-X)
 
 v=lm(prevalence_table_2$Freq~prevalence_table_2$varroa_avg)
 c=lm(prevalence_table_2$Freq~prevalence_table_2$colony_number)
-n=lm(prevalence_table_2$Freq~prevalence_table_2$natural_percent)
-a=lm(prevalence_table_2$Freq~prevalence_table_2$agriculture_percent)
+n=lm(prevalence_table_2$Freq~prevalence_table_2$percent_natural)
 s=lm(prevalence_table_2$varroa_avg~prevalence_table_2$colony_number)
 
 plot(prevalence_table_2$varroa_avg~prevalence_table_2$colony_number)
@@ -50,14 +58,13 @@ plot(prevalence_table_2$Freq~prevalence_table_2$varroa_avg)
 abline(v,col="blue")
 plot(prevalence_table_2$Freq~prevalence_table_2$colony_number)
 abline(c,col="blue")
-plot(prevalence_table_2$Freq~prevalence_table_2$natural_percent)
+plot(prevalence_table_2$Freq~prevalence_table_2$percent_natural)
 abline(n,col="blue")
-plot(prevalence_table_2$Freq~prevalence_table_2$agriculture_percent)
-abline(a,col="blue")
 
-agriculture=read.csv("C:/Users/laure/Desktop/Laurens_thesis/aggregrate_values.csv")%>%
-  filter(Prelim_Agg_Land_Class=='Agriculture')%>%
-  rename(agriculture_percent=percent_land_cover)
+honeybee_visits = flower_meta_comb %>% 
+  filter(!`# of HB Visits`=="NA") %>% 
+  group_by(Apiary_ID) %>% 
+  summarize(average_visitation = mean(`# of HB Visits`))
 
 # STATS HERE ----
 prev = flower_meta_comb %>% 
@@ -66,7 +73,10 @@ prev = flower_meta_comb %>%
   mutate(DWV_prev=DWV_positives/total_flowers) %>% 
   mutate(DWV_negatives=(total_flowers-DWV_positives)) %>% 
   left_join(varroa) %>% 
-  left_join(apiary_size)
+  left_join(apiary_size)%>%
+  left_join(honeybee_visits)%>%
+  left_join(natural)%>%
+  select(-X)
 View(prev)
 
 hist(prev$DWV_prev)
@@ -96,11 +106,14 @@ overdisp_fun(model)
 # but there are inter-site differences that are not the treatments that influence the probability, so we need to account for these site to site differences w a random effect of site
 # random effect removes the link bw mean and variance 
 
-model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+colony_number+(1|Apiary_ID), family=binomial, data=prev)
+#glmer has fixed and random effects, glm just has fixed effects. g means you are not assuming the data is normally distributed 
+
+model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+colony_number+average_visitation+percent_natural+(1|Apiary_ID), family=binomial, data=prev)
 #+Num_colonies as fixed effect
 summary(model)
 overdisp_fun(model)
 #random intercept model 
+round(cor(prev[, c("varroa_avg", "colony_number", "average_visitation", "percent_natural")]), 3)
 
 library(emmeans)
 emmeans(model, ~varroa_avg,at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)), type="response")
@@ -122,8 +135,6 @@ ggplot(data=model.emp, aes(x=varroa_avg, y=yvar)) +
   ylab("DWV prevalence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
-##this model has accounted for the number of colonies! <--- I took it out for simplicity Nov 6 2022, add back in later
-
 emmeans(model, ~colony_number,at=list(colony_number= c(1,5,10,15,20,25,30,35,40,45,50)), type="response")
 model.emp.col <- emmip(model, ~colony_number, at=list(colony_number= c(1,5,10,15,20,25,30,35,40,45,50)), type="response", CIs = TRUE, plotit = FALSE)
 #this at the logit of the probability of the model
@@ -138,19 +149,38 @@ ggplot(data=model.emp.col, aes(x=colony_number, y=yvar)) +
   ylab("DWV prevalence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
+emmeans(model, ~average_visitation,at=list(average_visitation= c(0,3,6,9,12,15,18,21,24,27,30)), type="response")
+model.emp.hb <- emmip(model, ~average_visitation, at=list(average_visitation= c(0,3,6,9,12,15,18,21,24,27,30)), type="response", CIs = TRUE, plotit = FALSE)
+
+ggplot(data=model.emp.hb, aes(x=average_visitation, y=yvar)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
+  geom_point(data=prev, aes(x=average_visitation, y=DWV_prev), size=3)+ 
+  theme_light() +
+  xlab("Average Honeybee Visits") +
+  ylab("DWV prevalence on goldenrod flowers") +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
+
+emmeans(model, ~percent_natural,at=list(percent_natural= c(0,10,20,30,40,50,60,70,80,90,100)), type="response")
+model.emp.nat <- emmip(model, ~percent_natural, at=list(percent_natural= c(0,10,20,30,40,50,60,70,80,90,100)), type="response", CIs = TRUE, plotit = FALSE)
+
+ggplot(data=model.emp.nat, aes(x=percent_natural, y=yvar)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
+  geom_point(data=prev, aes(x=percent_natural, y=DWV_prev), size=3)+ 
+  theme_light() +
+  xlab("Percent Natural Land Cover") +
+  ylab("DWV prevalence on goldenrod flowers") +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
+
 ###### Flower ~ Distance --------
-flower_meta_comb <- flower_qpcr %>% 
-  left_join(flower_meta, by="Sample_ID") %>% 
-  mutate(dwv=ifelse(c(SQ>0 & `Melt Temp`<= 83 & `Melt Temp` >= 81), 1, 0)) %>% 
-  relocate(dwv, .after=`Melt Temp`) %>% 
-  rename(Apiary_ID=Apiary_ID.x) %>% 
-  select(Sample_ID, Apiary_ID, Cq, SQ, `Melt Temp`, dwv, Date,`# of Colonies`, `Quadrat #`, `Distance to colonies (m)`, `# of HB Visits`) %>% 
-  left_join(varroa)
+
 flower_meta_comb$`Distance to colonies (m)` = as.numeric(flower_meta_comb$`Distance to colonies (m)`)
 View(flower_meta_comb)
 str(flower_meta_comb)
 
-dist.model <-glmer(dwv~`Distance to colonies (m)`+(1|Apiary_ID), family=binomial, data=flower_meta_comb)
+library(glmmTMB)
+dist.model <-glmmTMB(dwv~`Distance to colonies (m)`+(1|Apiary_ID/quadrat_date), family=binomial, data=flower_meta_comb)
 summary(dist.model)
 overdisp_fun(dist.model)
 #this model is not overdispersed - we don't need to add a random effect
@@ -165,7 +195,9 @@ ggplot(data=model.dist.emp, aes(x=`Distance to colonies (m)`, y=yvar)) +
   geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
   geom_point(data=flower_meta_comb, aes(x=`Distance to colonies (m)`, y=dwv), size=3)+ 
   theme_light() +
-  xlab("Distance from nearest honey bee colony") +
-  ylab("DWV prevalence on goldenrod flowers") +
+  xlab("Distance from nearest honey bee colony (m)") +
+  ylab("Probability of DWV presence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
+
+
 
