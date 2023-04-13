@@ -66,7 +66,9 @@ prev = flower_meta_comb %>%
   mutate(DWV_prev=DWV_positives/total_flowers) %>% 
   mutate(DWV_negatives=(total_flowers-DWV_positives)) %>% 
   left_join(varroa) %>% 
-  left_join(apiary_size)
+  left_join(apiary_size)%>%
+  left_join(honeybee_visits)%>%
+  left_join(agg_values)
 View(prev)
 
 hist(prev$DWV_prev)
@@ -96,11 +98,12 @@ overdisp_fun(model)
 # but there are inter-site differences that are not the treatments that influence the probability, so we need to account for these site to site differences w a random effect of site
 # random effect removes the link bw mean and variance 
 
-model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+colony_number+(1|Apiary_ID), family=binomial, data=prev)
+model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+colony_number+average_visitation+percent_land_cover+(1|Apiary_ID), family=binomial, data=prev)
 #+Num_colonies as fixed effect
 summary(model)
 overdisp_fun(model)
 #random intercept model 
+round(cor(prev[, c("varroa_avg", "colony_number", "average_visitation", "percent_land_cover")]), 3)
 
 library(emmeans)
 emmeans(model, ~varroa_avg,at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)), type="response")
@@ -150,7 +153,7 @@ flower_meta_comb$`Distance to colonies (m)` = as.numeric(flower_meta_comb$`Dista
 View(flower_meta_comb)
 str(flower_meta_comb)
 
-dist.model <-glmer(dwv~`Distance to colonies (m)`+(1|Apiary_ID), family=binomial, data=flower_meta_comb)
+dist.model <-glmer(dwv~`Distance to colonies (m)`+(1|Apiary_ID/`Quadrat #`), family=binomial, data=flower_meta_comb)
 summary(dist.model)
 overdisp_fun(dist.model)
 #this model is not overdispersed - we don't need to add a random effect
@@ -168,4 +171,9 @@ ggplot(data=model.dist.emp, aes(x=`Distance to colonies (m)`, y=yvar)) +
   xlab("Distance from nearest honey bee colony") +
   ylab("DWV prevalence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
+
+honeybee_visits = flower_meta_comb %>% 
+  filter(!`# of HB Visits`=="NA") %>% 
+  group_by(Apiary_ID) %>% 
+  summarize(average_visitation = mean(`# of HB Visits`))
 
