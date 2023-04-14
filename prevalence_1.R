@@ -24,11 +24,6 @@ flower_meta_comb$quadrat_date <- paste(flower_meta_comb$`Quadrat #`,
 flower_meta_comb$`# of HB Visits` <- as.numeric(flower_meta_comb$`# of HB Visits`)
 flower_meta_comb$`Distance to colonies (m)`<-as.numeric(flower_meta_comb$`Distance to colonies (m)`)
 
-visitation.distance.df <- flower_meta_comb %>% 
-  group_by(Apiary_ID, quadrat_date) %>% 
-  summarize(quadrat_visitation = mean(`# of HB Visits`), quadrat_dist = mean(`Distance to colonies (m)`))
-View(flower_meta_comb)
-
 apiary_size = flower_meta_comb %>% 
   filter(!`# of Colonies`=="NA") %>% 
   group_by(Apiary_ID) %>% 
@@ -225,6 +220,12 @@ ggplot(data=model.dist.emp, aes(x=`Distance to colonies (m)`, y=yvar)) +
 #filter(!`# of HB Visits`=="NA") %>% 
   #group_by(Apiary_ID) %>% 
   #summarize(average_visitation = mean(`# of HB Visits`))
+
+visitation.distance.df <- flower_meta_comb %>% 
+  group_by(Apiary_ID, quadrat_date) %>% 
+  summarize(quadrat_visitation = mean(`# of HB Visits`), quadrat_dist = mean(`Distance to colonies (m)`))
+View(flower_meta_comb)
+View(visitation.distance.df)
 
 #library(glmmTMB) - but with lmer/glmer, family is poisson
 #dist.model <-glmmTMB(dwv~`Distance to colonies (m)`+(1|Apiary_ID/quadrat_date), family=binomial, data=flower_meta_comb)
