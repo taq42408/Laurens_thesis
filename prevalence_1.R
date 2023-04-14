@@ -118,7 +118,7 @@ overdisp_fun(model)
 
 #glmer has fixed and random effects, glm just has fixed effects. g means you are not assuming the data is normally distributed 
 
-model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+colony_number+average_visitation+percent_natural+number_treatments+(1|Apiary_ID), family=binomial, data=prev)
+model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+average_visitation+percent_natural+(1|Apiary_ID), family=binomial, data=prev)
 #+Num_colonies as fixed effect
 summary(model)
 overdisp_fun(model)
@@ -210,4 +210,18 @@ ggplot(data=model.dist.emp, aes(x=`Distance to colonies (m)`, y=yvar)) +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
 
+#visitation on y axis (group by quadrat_date and apiary), distance on x axis
+#try linear model first, look at histogram to see if it's normal (lmer or glmer)
+#use old spreadsheet with one line per quadrat, need to add quadrat_date
 
+#honeybee_visits = flower_meta_comb %>% 
+#filter(!`# of HB Visits`=="NA") %>% 
+  #group_by(Apiary_ID) %>% 
+  #summarize(average_visitation = mean(`# of HB Visits`))
+
+#library(glmmTMB) - but with lmer/glmer, family is poisson
+#dist.model <-glmmTMB(dwv~`Distance to colonies (m)`+(1|Apiary_ID/quadrat_date), family=binomial, data=flower_meta_comb)
+#summary(dist.model)
+#overdisp_fun(dist.model)
+
+#probability of DWV on y, honeybee visitation to quadrat on x
