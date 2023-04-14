@@ -14,13 +14,20 @@ library(lmerTest)
 flower_meta_comb=flower_qpcr%>%
   left_join(flower_meta,by=('Sample_ID'))%>%
   mutate(dwv=ifelse(c(SQ>0 & `Melt Temp`<=83 & `Melt Temp`>=81),1,0))%>%
-  relocate(dwv,.after=`Melt Temp`)
+  relocate(dwv,.after=`Melt Temp`) %>% 
+  rename(Apiary_ID=Apiary_ID.x)
 
 flower_meta_comb$quadrat_date <- paste(flower_meta_comb$`Quadrat #`,
                                        flower_meta_comb$`Date (numeric)`,
                                        sep="_"
                                        )
+flower_meta_comb$`# of HB Visits` <- as.numeric(flower_meta_comb$`# of HB Visits`)
+flower_meta_comb$`Distance to colonies (m)`<-as.numeric(flower_meta_comb$`Distance to colonies (m)`)
 
+visitation.distance.df <- flower_meta_comb %>% 
+  group_by(Apiary_ID, quadrat_date) %>% 
+  summarize(quadrat_visitation = mean(`# of HB Visits`), quadrat_dist = mean(`Distance to colonies (m)`))
+View(flower_meta_comb)
 
 apiary_size = flower_meta_comb %>% 
   filter(!`# of Colonies`=="NA") %>% 

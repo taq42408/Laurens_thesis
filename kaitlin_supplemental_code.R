@@ -18,9 +18,20 @@ varroa <- read_csv("/Users/krd59/Documents/Github/Laurens_thesis/varroa-loads.cs
 View(varroa)
 
 treatments <- read_csv("/Users/krd59/Documents/Github/Laurens_thesis/TechTeam-data_2020-ONLY.csv") %>% 
-  filter(!`Apiary Treatments per year`=="N/A")
-treatments$`Apiary Treatments per year`=as.numeric(treatments$`Apiary Treatments per year`)
-View(treatments)
+ filter(!`Apiary Treatments per year`=="N/A") %>% 
+ filter(Season=="Fall")
+treatments1$`Apiary Treatments per year`=as.numeric(treatments1$`Apiary Treatments per year`)
+
+treatments <- treatments1 %>% 
+  group_by(Apiary_ID) %>% 
+  summarize(varroa_avg =mean(`Mites per 100 bees`), number_treatments = mean(`Apiary Treatments per year`))
+View(treatments1)
+
+
+plot(treatments$number_treatments~treatments$varroa_avg)
+abline(t, col="red")
+t <- lm(treatments$number_treatments~treatments$varroa_avg)
+
 
 natural=read.csv("/Users/krd59/Documents/Github/Laurens_thesis/aggregate_values.csv")%>%
   filter(Prelim_Agg_Land_Class=='Natural')%>%
@@ -66,8 +77,9 @@ prev = flower_meta_comb %>%
   left_join(varroa) %>% 
   left_join(apiary_size) %>% 
   left_join(visitation) %>% 
+  left_join(natural) %>% 
   left_join(beek) %>% 
-  left_join(natural)
+  mutate(Operation = ifelse(Apiary_ID %in% c("CN_Oddy", "HG_School", "LT_Grange", "TD_Home", "QN_Millers", "XQ_Kingtown_Beach"), "Commercial", ifelse(Apiary_ID %in% c("EK_Daniels", "FW_Huggins", "KC_Domes", "MM_Swede"), "Hobbyist", "Sideliner")))  
 View(prev)
 str(prev)
 
@@ -75,6 +87,11 @@ vc = lm(prev$varroa_avg~prev$colony_number)
 plot(prev$DWV_prev~prev$varroa_avg)
 plot(prev$DWV_prev~prev$colony_number)
 plot(prev$varroa_avg~prev$colony_number)
+plot(prev$DWV_prev~prev$Operation)
+
+ggplot(data=prev, aes(x=Operation, y=mean(varroa_avg))) +
+  geom_col()
+
 abline(vc, col="darkred")
 
 plot(flower_meta_comb$dwv~flower_meta_comb$`Distance to colonies (m)`)
@@ -86,8 +103,28 @@ plot(prev2$varroa_avg~prev2$number_treatments)
 
 round(cor(prev2[, c("varroa_avg","number_treatments", "colony_number", "average_visitation", "percent_natural")]), 3)
 
-model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+average_visitation+percent_natural+number_treatments+(1|Apiary_ID), family=binomial, data=prev)
-summary(model)
+model.w <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+average_visitation+percent_natural+(1|Apiary_ID), family=binomial, data=prev)
+summary(model.w)
+
+emmeans(model.w, ~number_treatments,at=list(number_treatments= c(0,1,2,3,4,5,6)), type="response")
+model.emp <- emmip(model, ~number_treatments, at=list(number_treatments= c(0,1,2,3,4,5,6)), type="response", CIs = TRUE, plotit = FALSE)
+#this at the logit of the probability of the model
+#plot data on top of our emmip
+
+# emmeans(model, ~varroa_avg,at=list(varroa_avg= c(1,5,10,15,20)), type="response")
+# model.emp <- emmip(model, ~varroa_avg, at=list(varroa_avg= c(1,5,10,15,20)), type="response", CIs = TRUE, plotit = FALSE)
+# fewer steps, the more chunky the line looks 
+
+# what is a nested model - every variable present in one model is also in the other model; AIC allows you test bw non-nested values while ANOVA only allows you to compare nested models
+
+ggplot(data=model.emp, aes(x=number_treatments, y=yvar)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
+  geom_point(data=prev, aes(x=number_treatments, y=DWV_prev), size=3)+ 
+  theme_light() +
+  xlab("Number of annual mite treatments per apiary") +
+  ylab("DWV prevalence on goldenrod flowers") +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
 # STATS HERE ----
 hist(prev$DWV_prev)
@@ -123,6 +160,8 @@ plot(prev$average_visitation~prev$colony_number)
 
 whole.model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+average_visitation+(1|Apiary_ID), family=binomial, data=prev)
 summary(whole.model)
+
+
 
 # three reasons for statistics: 1) hypothesis testing; 2) data exploration; 3) prediction modeling
 # data exploration - not always compatible for hypothesis testing; you are more likely to select variables that have lower p-values than their average
