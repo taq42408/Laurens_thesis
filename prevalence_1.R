@@ -232,4 +232,9 @@ View(visitation.distance.df)
 #summary(dist.model)
 #overdisp_fun(dist.model)
 
-#probability of DWV on y, honeybee visitation to quadrat on x
+2 #probability of DWV on y, honeybee visitation to quadrat on x
+
+1  #regress visitation and distance - plot
+#look to see if it's normal with hist
+# regression statistics, emmeans
+#if they're not correlated, include visitation as fixed effect on 195
