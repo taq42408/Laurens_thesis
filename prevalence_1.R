@@ -221,20 +221,54 @@ ggplot(data=model.dist.emp, aes(x=`Distance to colonies (m)`, y=yvar)) +
   #group_by(Apiary_ID) %>% 
   #summarize(average_visitation = mean(`# of HB Visits`))
 
-visitation.distance.df <- flower_meta_comb %>% 
-  group_by(Apiary_ID, quadrat_date) %>% 
-  summarize(quadrat_visitation = mean(`# of HB Visits`), quadrat_dist = mean(`Distance to colonies (m)`))
-View(flower_meta_comb)
-View(visitation.distance.df)
+#probability of DWV on y, honeybee visitation to quadrat on x
 
-#library(glmmTMB) - but with lmer/glmer, family is poisson
-#dist.model <-glmmTMB(dwv~`Distance to colonies (m)`+(1|Apiary_ID/quadrat_date), family=binomial, data=flower_meta_comb)
-#summary(dist.model)
-#overdisp_fun(dist.model)
-
-2 #probability of DWV on y, honeybee visitation to quadrat on x
-
-1  #regress visitation and distance - plot
+#regress visitation and distance - plot
 #look to see if it's normal with hist
 # regression statistics, emmeans
 #if they're not correlated, include visitation as fixed effect on 195
+
+#Correlation between visitation and distance - no correlation
+
+plot(visitation.distance.df$quadrat_visitation~visitation.distance.df$quadrat_dist)
+hist(visitation.distance.df$quadrat_dist)
+hist(visitation.distance.df$quadrat_visitation)
+     
+visitation.distance.df <- flower_meta_comb %>% 
+  group_by(Apiary_ID, quadrat_date) %>% 
+  summarize(quadrat_visitation = mean(`# of HB Visits`), quadrat_dist = mean(`Distance to colonies (m)`))%>%
+  filter(!quadrat_visitation=="NA", !quadrat_dist=="NA")
+View(flower_meta_comb)
+View(visitation.distance.df)
+
+dist_visit=glmmTMB(quadrat_visitation~quadrat_dist+(1|Apiary_ID), family=nbinom2, data=visitation.distance.df)
+summary(dist_visit)
+overdisp_fun(dist_visit)
+
+#This was Wee Hao trying to determine whether apiary variation is driving visitation differences as opposed to variation in distance. It is- so we can't show a correlation between visitation and distance with our data
+
+palette = rainbow(15)
+names(palette) <- unique(visitation.distance.df$Apiary_ID)
+pch = 1:15
+names(pch) <- unique(visitation.distance.df$Apiary_ID)
+
+plot(visitation.distance.df$quadrat_visitation~visitation.distance.df$quadrat_dist, col=palette[visitation.distance.df$Apiary_ID],
+     pch=pch[visitation.distance.df$Apiary_ID], cex=1.5)
+
+#HB Visitation DWV Data
+
+hb.model <-glmmTMB(dwv~`# of HB Visits`+(1|Apiary_ID/quadrat_date), family=binomial, data=flower_meta_comb)
+summary(hb.model)
+overdisp_fun(hb.model)
+
+emmeans(hb.model, ~`# of HB Visits`, at=list(`# of HB Visits`= c(0,3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60)), type="response")
+model.visit <- emmip(hb.model, ~`# of HB Visits`, at=list(`# of HB Visits`= c(0,3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60)), type="response", CIs = TRUE, plotit = FALSE)
+
+ggplot(data=model.visit, aes(x=`# of HB Visits`, y=yvar)) +
+  geom_line() +
+  geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
+  geom_point(data=flower_meta_comb, aes(x=`# of HB Visits`, y=dwv), size=3)+ 
+  theme_light() +
+  xlab("Number of honeybee visits per 5 minute interval") +
+  ylab("Probability of DWV presence on goldenrod flowers") +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
