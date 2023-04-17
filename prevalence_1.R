@@ -169,12 +169,13 @@ ggplot(data=model.emp.hb, aes(x=average_visitation, y=yvar)) +
   geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
   geom_point(data=prev, aes(x=average_visitation, y=DWV_prev), size=3)+ 
   theme_light() +
-  xlab("Average Honeybee Visits") +
+  xlab("Average Honeybee Visits per 5 minute interval") +
   ylab("DWV prevalence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
 emmeans(model, ~percent_natural,at=list(percent_natural= c(0,10,20,30,40,50,60,70,80,90,100)), type="response")
 model.emp.nat <- emmip(model, ~percent_natural, at=list(percent_natural= c(0,10,20,30,40,50,60,70,80,90,100)), type="response", CIs = TRUE, plotit = FALSE)
+summary(model.emp.nat)
 
 ggplot(data=model.emp.nat, aes(x=percent_natural, y=yvar)) +
   geom_line() +
