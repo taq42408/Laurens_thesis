@@ -1,3 +1,9 @@
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(lme4)
+library(lmerTest)
+
 flower_meta=read_csv("C:/Users/laure/Desktop/Laurens_thesis/Flower_metadata.csv")
 flower_qpcr=read_csv("C:/Users/laure/Desktop/Laurens_thesis/Flower_qPCR_master.csv")%>%
   filter(Content=="Unkn" & !Sample_ID=="NA")
@@ -5,11 +11,6 @@ varroa <- read_csv("C:/Users/laure/Desktop/Laurens_thesis/varroa-loads.csv") %>%
   group_by(Apiary_ID) %>% 
   summarize(varroa_avg = mean(Varroa_Load))
 
-library(dplyr)
-library(tidyverse)
-library(ggplot2)
-library(lme4)
-library(lmerTest)
 
 flower_meta_comb=flower_qpcr%>%
   left_join(flower_meta,by=('Sample_ID'))%>%
@@ -120,12 +121,15 @@ overdisp_fun(model)
 
 #glmer has fixed and random effects, glm just has fixed effects. g means you are not assuming the data is normally distributed 
 
-model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+average_visitation+percent_natural+(1|Apiary_ID), family=binomial, data=prev)
+prev2=prev %>%
+  mutate(average_visitation_min=average_visitation/5)
+
+model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+average_visitation_min+percent_natural+(1|Apiary_ID), family=binomial, data=prev2)
 #+Num_colonies as fixed effect
 summary(model)
 overdisp_fun(model)
 #random intercept model 
-round(cor(prev[, c("varroa_avg", "colony_number", "average_visitation", "percent_natural","number_treatments")]), 3)
+round(cor(prev2[, c("varroa_avg", "colony_number", "average_visitation_min", "percent_natural","number_treatments")]), 3)
 
 library(emmeans)
 emmeans(model, ~varroa_avg,at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)), type="response")
@@ -141,9 +145,9 @@ model.emp <- emmip(model, ~varroa_avg, at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9
 ggplot(data=model.emp, aes(x=varroa_avg, y=yvar)) +
   geom_line() +
   geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
-  geom_point(data=prev, aes(x=varroa_avg, y=DWV_prev), size=3)+ 
+  geom_point(data=prev2, aes(x=varroa_avg, y=DWV_prev), size=3)+ 
   theme_light() +
-  xlab("Average Varroa Load per 100 honey bees") +
+  xlab("Mean Varroa load per apiary") +
   ylab("DWV prevalence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
@@ -155,21 +159,21 @@ model.emp.col <- emmip(model, ~colony_number, at=list(colony_number= c(1,5,10,15
 ggplot(data=model.emp.col, aes(x=colony_number, y=yvar)) +
   geom_line() +
   geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
-  geom_point(data=prev, aes(x=colony_number, y=DWV_prev), size=3)+ 
+  geom_point(data=prev2, aes(x=colony_number, y=DWV_prev), size=3)+ 
   theme_light() +
   xlab("Number of colonies") +
   ylab("DWV prevalence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
-emmeans(model, ~average_visitation,at=list(average_visitation= c(0,3,6,9,12,15,18,21,24,27,30)), type="response")
-model.emp.hb <- emmip(model, ~average_visitation, at=list(average_visitation= c(0,3,6,9,12,15,18,21,24,27,30)), type="response", CIs = TRUE, plotit = FALSE)
+emmeans(model, ~average_visitation_min,at=list(average_visitation_min= c(0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6)), type="response")
+model.emp.hb <- emmip(model, ~average_visitation_min, at=list(average_visitation_min= c(0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6)), type="response", CIs = TRUE, plotit = FALSE)
 
-ggplot(data=model.emp.hb, aes(x=average_visitation, y=yvar)) +
+ggplot(data=model.emp.hb, aes(x=average_visitation_min, y=yvar)) +
   geom_line() +
   geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
-  geom_point(data=prev, aes(x=average_visitation, y=DWV_prev), size=3)+ 
+  geom_point(data=prev2, aes(x=average_visitation_min, y=DWV_prev), size=3)+ 
   theme_light() +
-  xlab("Average Honeybee Visits per 5 minute interval") +
+  xlab("Honey bee visits/min to goldenrod flowers") +
   ylab("DWV prevalence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
@@ -180,7 +184,7 @@ summary(model.emp.nat)
 ggplot(data=model.emp.nat, aes(x=percent_natural, y=yvar)) +
   geom_line() +
   geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
-  geom_point(data=prev, aes(x=percent_natural, y=DWV_prev), size=3)+ 
+  geom_point(data=prev2, aes(x=percent_natural, y=DWV_prev), size=3)+ 
   theme_light() +
   xlab("Percent Natural Land Cover") +
   ylab("DWV prevalence on goldenrod flowers") +
@@ -208,7 +212,7 @@ ggplot(data=model.dist.emp, aes(x=`Distance to colonies (m)`, y=yvar)) +
   geom_ribbon(aes(ymin=LCL, ymax=UCL), alpha=0.1, show.legend = FALSE) + 
   geom_point(data=flower_meta_comb, aes(x=`Distance to colonies (m)`, y=dwv), size=3)+ 
   theme_light() +
-  xlab("Distance from nearest honey bee colony (m)") +
+  xlab("Distance from apiary (m)") +
   ylab("Probability of DWV presence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
 
@@ -273,3 +277,6 @@ ggplot(data=model.visit, aes(x=`# of HB Visits`, y=yvar)) +
   xlab("Number of honeybee visits per 5 minute interval") +
   ylab("Probability of DWV presence on goldenrod flowers") +
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
+
+#Descriptive DWV prevalence graph
+
