@@ -286,6 +286,7 @@ prev3=prev2 %>%
 
 ggplot(data=prev3, aes(x=fct_reorder(Apiary_ID, DWV_prev), y= DWV_prev))+
   geom_col()+
+  scale_x_discrete(labels=c('Apiary 1', 'Apiary 2', 'Apiary 3', 'Apiary 4','Apiary 5','Apiary 6','Apiary 7','Apiary 8','Apiary 9','Apiary 10','Apiary 11','Apiary 12','Apiary 13','Apiary 14','Apiary 15'))+
   theme_light()+
   xlab("Apiary ID")+
   ylab("DWV prevalence on goldenrod flowers")+
