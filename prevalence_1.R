@@ -283,7 +283,8 @@ ggplot(data=model.visit, aes(x=`# of HB Visits`, y=yvar)) +
 prev3=prev2 %>%
   mutate(sd=sd(DWV_prev))
 
-ggplot(data=prev3, aes(x=Apiary_ID, y=DWV_prev))+
+
+ggplot(data=prev3, aes(x=fct_reorder(Apiary_ID, DWV_prev), y= DWV_prev))+
   geom_col()+
   theme_light()+
   xlab("Apiary ID")+
