@@ -280,3 +280,13 @@ ggplot(data=model.visit, aes(x=`# of HB Visits`, y=yvar)) +
 
 #Descriptive DWV prevalence graph
 
+prev3=prev2 %>%
+  mutate(sd=sd(DWV_prev))
+
+ggplot(data=prev3, aes(x=Apiary_ID, y=DWV_prev))+
+  geom_col()+
+  theme_light()+
+  xlab("Apiary ID")+
+  ylab("DWV prevalence on goldenrod flowers")+
+  geom_errorbar(aes(ymin = DWV_prev-sd, ymax = DWV_prev+sd),width=.2)+
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
