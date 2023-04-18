@@ -129,7 +129,7 @@ model <-glmer(cbind(DWV_positives, DWV_negatives)~varroa_avg+average_visitation_
 summary(model)
 overdisp_fun(model)
 #random intercept model 
-round(cor(prev2[, c("varroa_avg", "colony_number", "average_visitation_min", "percent_natural","number_treatments")]), 3)
+round(cor(prev2[, c("varroa_avg", "colony_number", "average_visitation_min", "percent_natural")]), 3)
 
 library(emmeans)
 emmeans(model, ~varroa_avg,at=list(varroa_avg= c(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)), type="response")
