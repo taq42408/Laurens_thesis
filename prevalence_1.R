@@ -292,3 +292,6 @@ ggplot(data=prev3, aes(x=fct_reorder(Apiary_ID, DWV_prev), y= DWV_prev))+
   ylab("DWV prevalence on goldenrod flowers")+
   geom_errorbar(aes(ymin = DWV_prev-sd, ymax = DWV_prev+sd),width=.2)+
   theme(text = element_text(size=20), axis.text.x = element_text(angle = 45, hjust=1))
+
+#average prevalence
+mean(prev2$DWV_prev)
